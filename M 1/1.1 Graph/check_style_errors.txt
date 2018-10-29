@@ -1,8 +1,5 @@
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:108:13: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:109:13: '}' at column 13 should be alone on a line. [RightCurly]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
@@ -18,7 +15,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:134:34: Parameter vertex should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:145:28: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:145:35: Parameter w should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161:29: Parameter vert should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161:39: Parameter edg should be final. [FinalParameters]
