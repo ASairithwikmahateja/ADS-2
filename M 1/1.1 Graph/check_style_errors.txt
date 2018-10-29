@@ -1,11 +1,6 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:24:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:32:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:41:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:46:7: Name 'newGraph' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:67: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:87:14: Parameter scan should be final. [FinalParameters]
@@ -26,6 +21,6 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:187: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:190: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 Audit done.

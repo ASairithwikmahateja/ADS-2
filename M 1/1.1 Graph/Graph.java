@@ -8,20 +8,20 @@ interface Graph {
      *
      * @return     int
      */
-    public int vertices();
+    int vertices();
     /**
      * Edges.
      *
      * @return     int
      */
-    public int edges();
+    int edges();
     /**
      * Adds an edge.
      *
      * @param      v     int
      * @param      w     int
      */
-    public void addEdge(int v, int w);
+    void addEdge(int v, int w);
     /**
      * Iterable.
      *
@@ -29,7 +29,7 @@ interface Graph {
      *
      * @return     int
      */
-    public Iterable<Integer> adj(int v);
+    Iterable<Integer> adj(int v);
     /**
      * Determines if it has edge.
      *
@@ -38,7 +38,7 @@ interface Graph {
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w);
+    boolean hasEdge(int v, int w);
 }
 /**
  * Class for graph.
