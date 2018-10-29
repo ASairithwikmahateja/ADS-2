@@ -197,7 +197,7 @@ class Newgraph implements Graph {
             for (int i = 0; i  < vert; i++) {
                 for (int j = 0; j < vert; j++) {
                     if (hasEdge(i, j)) {
-                        disp[i][j] = 0;
+                        disp[i][j] = 1;
                     }
                 }
             }
