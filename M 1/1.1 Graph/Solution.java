@@ -29,14 +29,14 @@ final class Solution {
         switch (type) {
             case "List":
             try {
-                g.listdisplay(nvertices, nedges, keys);
+                g.display1(nvertices, nedges, keys);
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
             break;
             case "Matrix":
             try {
-                g.matrixdisplay(nvertices, nedges);
+                g.display2(nvertices, nedges);
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }

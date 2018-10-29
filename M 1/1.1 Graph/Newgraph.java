@@ -157,7 +157,7 @@ class Newgraph implements Graph {
      *
      * @throws     Exception  { exception_description }
      */
-    public void listdisplay(final int vert, final int edg,
+    public void display1(final int vert, final int edg,
         final String[] tok) throws Exception {
         if (edg <= 1 && vert <= 1) {
             System.out.println(vertices()
@@ -184,7 +184,7 @@ class Newgraph implements Graph {
      *
      * @throws     Exception  No edges
      */
-    public void matrixdisplay(final int vert,
+    public void display2(final int vert,
         final int edg) throws Exception {
         if (edg <= 1 && vert <= 1) {
             System.out.println(vertices()
@@ -197,7 +197,7 @@ class Newgraph implements Graph {
             for (int i = 0; i  < vert; i++) {
                 for (int j = 0; j < vert; j++) {
                     if (hasEdge(i, j)) {
-                        disp[i][j] = 1;
+                        disp[i][j] = 0;
                     }
                 }
             }
