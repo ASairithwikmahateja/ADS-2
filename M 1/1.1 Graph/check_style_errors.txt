@@ -1,12 +1,9 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:161:24: 'tokens' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:163:43: '+' should be on a new line. [OperatorWrap]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:167:43: '+' should be on a new line. [OperatorWrap]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:190:43: '+' should be on a new line. [OperatorWrap]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:194:43: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:156:8: Unused @param tag for 'tokens'. [JavadocMethod]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:161:24: Expected @param tag for 'tok'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.

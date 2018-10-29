@@ -158,19 +158,19 @@ class Newgraph implements Graph {
      * @throws     Exception  { exception_description }
      */
     public void listdisplay(final int vert, final int edg,
-        final String[] tokens) throws Exception {
+        final String[] tok) throws Exception {
         if (edg <= 1 && vert <= 1) {
-            System.out.println(vertices() +
-                " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices()
+                + " vertices" + ", " + edges() + " edges");
             throw new Exception("No edges");
         } else {
-            System.out.println(vertices() +
-                " vertices" + ", " + edges() + " edges");
-            for (int i = 0; i < tokens.length; i++) {
+            System.out.println(vertices()
+                + " vertices" + ", " + edges() + " edges");
+            for (int i = 0; i < tok.length; i++) {
             String str = "";
-            str = tokens[i] + ": ";
+            str = tok[i] + ": ";
             for (int k : adj(i)) {
-                str = str + tokens[k] + " ";
+                str = str + tok[k] + " ";
             }
             System.out.println(str);
             }
@@ -187,12 +187,12 @@ class Newgraph implements Graph {
     public void matrixdisplay(final int vert,
         final int edg) throws Exception {
         if (edg <= 1 && vert <= 1) {
-            System.out.println(vertices() +
-                " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices()
+                + " vertices" + ", " + edges() + " edges");
             throw new Exception("No edges");
         } else {
-            System.out.println(vertices() +
-                " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices()
+                + " vertices" + ", " + edges() + " edges");
             int[][] disp = new int[vert][vert];
             for (int i = 0; i  < vert; i++) {
                 for (int j = 0; j < vert; j++) {
