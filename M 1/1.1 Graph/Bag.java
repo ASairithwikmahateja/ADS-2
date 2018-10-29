@@ -15,7 +15,7 @@ public class Bag<Item> implements Iterable<Item> {
      */
     private Node first;
     /**
-     * helper linked list class
+     * helper linked list class.
      */
     private class Node {
         /**
@@ -59,7 +59,7 @@ public class Bag<Item> implements Iterable<Item> {
     *
     * @param      item  The item
     */
-    public void add(Item item) {
+    public void add(final Item item) {
         Node oldfirst = first;
         first = new Node();
         first.item = item;
@@ -73,7 +73,7 @@ public class Bag<Item> implements Iterable<Item> {
     * @return     int
     */
     public Iterator<Item> iterator() {
-        return new ListIterator();  
+        return new ListIterator();
     }
 
     /**
@@ -90,13 +90,13 @@ public class Bag<Item> implements Iterable<Item> {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
-        	return current != null;
+            return current != null;
         }
         /**
          * void.
          */
         public void remove() {
-        	throw new UnsupportedOperationException();
+            throw new UnsupportedOperationException();
         }
         /**
          * The Item.

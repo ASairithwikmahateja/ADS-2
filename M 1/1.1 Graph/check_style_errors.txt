@@ -1,12 +1,8 @@
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:17: First sentence should end with a period. [JavadocStyle]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:62:21: Parameter item should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:76: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:93:9: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:107:29: '{' at column 29 should have line break after. [LeftCurly]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
