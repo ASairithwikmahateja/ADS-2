@@ -1,6 +1,5 @@
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:12:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:17: First sentence should end with a period. [JavadocStyle]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:62:21: Parameter item should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:76: Line has trailing spaces. [RegexpSingleline]
@@ -11,7 +10,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:96:35: '{' at column 35 should have line break after. [LeftCurly]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:103: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
