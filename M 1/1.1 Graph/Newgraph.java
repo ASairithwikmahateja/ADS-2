@@ -64,7 +64,6 @@ class Newgraph implements Graph {
      * Constructs the object.
      */
     private Newgraph() {
-    
     }
     /**
      * Constructs the object.
@@ -90,9 +89,9 @@ class Newgraph implements Graph {
         for (int i = 0; i < vertices; i++) {
             adj[i] = new Bag<Integer>();
         }
-        int edges = Integer.parseInt(scan.nextLine());
+        int edg = Integer.parseInt(scan.nextLine());
         tokens = scan.nextLine().split(",");
-        for (int i = 0; i < edges; i++) {
+        for (int i = 0; i < edg; i++) {
             String[] inputs = scan.nextLine().split(" ");
             addEdge(Integer.parseInt(inputs[0]), Integer.parseInt(inputs[1]));
         }
@@ -143,7 +142,7 @@ class Newgraph implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(final int v, final int w) {
-        for(int k : adj[v]) {
+        for (int k : adj[v]) {
                 if (k == w) {
                     return true;
                 }
@@ -158,12 +157,15 @@ class Newgraph implements Graph {
      *
      * @throws     Exception  { exception_description }
      */
-    public void listdisplay(final int vert, final int edg, final String[] tokens) throws Exception {
+    public void listdisplay(final int vert, final int edg,
+        final String[] tokens) throws Exception {
         if (edg <= 1 && vert <= 1) {
-            System.out.println(vertices() + " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices() +
+                " vertices" + ", " + edges() + " edges");
             throw new Exception("No edges");
         } else {
-            System.out.println(vertices() + " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices() +
+                " vertices" + ", " + edges() + " edges");
             for (int i = 0; i < tokens.length; i++) {
             String str = "";
             str = tokens[i] + ": ";
@@ -182,12 +184,15 @@ class Newgraph implements Graph {
      *
      * @throws     Exception  No edges
      */
-    public void matrixdisplay(final int vert, final int edg) throws Exception {
+    public void matrixdisplay(final int vert,
+        final int edg) throws Exception {
         if (edg <= 1 && vert <= 1) {
-            System.out.println(vertices() + " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices() +
+                " vertices" + ", " + edges() + " edges");
             throw new Exception("No edges");
         } else {
-            System.out.println(vertices() + " vertices" + ", " + edges() + " edges");
+            System.out.println(vertices() +
+                " vertices" + ", " + edges() + " edges");
             int[][] disp = new int[vert][vert];
             for (int i = 0; i  < vert; i++) {
                 for (int j = 0; j < vert; j++) {

@@ -1,28 +1,12 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:67: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:93:13: 'edges' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161:75: 'tokens' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:163: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:166: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:187: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:190: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:161:24: 'tokens' hides a field. [HiddenField]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:163:43: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:167:43: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:190:43: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:194:43: '+' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 9 errors.
-Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:67: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:93:13: 'edges' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:161: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:161:75: 'tokens' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:163: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:166: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:187: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Newgraph.java:190: Line is longer than 80 characters (found 85). [LineLength]
-Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.
