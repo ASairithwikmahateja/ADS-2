@@ -20,7 +20,7 @@ final class Solution {
         int nvertices = Integer.parseInt(sc.nextLine());
         int nedges = Integer.parseInt(sc.nextLine());
         String[] keys = sc.nextLine().split(",");
-        newGraph g = new newGraph(nvertices);
+        Newgraph g = new Newgraph(nvertices);
         while (sc.hasNext()) {
             String[] conn = sc.nextLine().split(" ");
             g.addEdge(Integer.parseInt(conn[0]),
