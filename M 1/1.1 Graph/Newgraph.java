@@ -119,9 +119,14 @@ class Newgraph implements Graph {
      * @param      vertexTwo  The vertex two
      */
     public void addEdge(final int vertexOne, final int vertexTwo) {
+        if (vertexOne == vertexTwo) {
+            return;
+        }
+        if (!hasEdge(vertexOne, vertexTwo)) {
         adj[vertexOne].add(vertexTwo);
         adj[vertexTwo].add(vertexOne);
         edges++;
+        }
     }
     /**
      * Iterable.
