@@ -3,28 +3,28 @@ import java.util.Scanner;
  * Class for solution.
  */
 final class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
 
-	}
-	/**
-	 * Main function.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String type = sc.nextLine();
-		int nvertices = Integer.parseInt(sc.nextLine());
-		int nedges = Integer.parseInt(sc.nextLine());
-		String[] keys = sc.nextLine().split(",");
-		newGraph g = new newGraph(nvertices);
-		while (sc.hasNext()) {
-		    String[] conn = sc.nextLine().split(" ");
-		    g.addEdge(Integer.parseInt(conn[0]),
-		    	Integer.parseInt(conn[1]));
+    }
+    /**
+     * Main function.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String type = sc.nextLine();
+        int nvertices = Integer.parseInt(sc.nextLine());
+        int nedges = Integer.parseInt(sc.nextLine());
+        String[] keys = sc.nextLine().split(",");
+        newGraph g = new newGraph(nvertices);
+        while (sc.hasNext()) {
+            String[] conn = sc.nextLine().split(" ");
+            g.addEdge(Integer.parseInt(conn[0]),
+                Integer.parseInt(conn[1]));
         }
         switch (type) {
             case "List":
@@ -43,6 +43,6 @@ final class Solution {
             break;
             default:
             break;
-		}
-	}
+        }
+    }
 }
