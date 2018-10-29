@@ -1,8 +1,7 @@
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:107:29: '{' at column 29 should have line break after. [LeftCurly]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:107: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
