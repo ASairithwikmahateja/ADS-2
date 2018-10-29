@@ -37,22 +37,28 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
    /**
-     * Is the BAG empty?
-     */
+    * Determines if empty.
+    *
+    * @return     True if empty, False otherwise.
+    */
     public boolean isEmpty() {
         return first == null;
     }
 
    /**
-     * Return the number of items in the bag.
-     */
+    * Return the number of items in the bag.
+    *
+    * @return     int
+    */
     public int size() {
         return N;
     }
 
    /**
-     * Add the item to the bag.
-     */
+    * Add the item to the bag.
+    *
+    * @param      item  The item
+    */
     public void add(Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -62,13 +68,17 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
    /**
-     * Return an iterator that iterates over the items in the bag.
-     */
+    * Return an iterator that iterates over the items in the bag.
+    *
+    * @return     int
+    */
     public Iterator<Item> iterator()  {
         return new ListIterator();  
     }
 
-    // an iterator, doesn't implement remove() since it's optional
+    /**
+     * an iterator, doesn't implement remove() since it's optional. 
+     */
     private class ListIterator implements Iterator<Item> {
         /**
          * The Node.
