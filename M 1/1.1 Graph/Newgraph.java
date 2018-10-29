@@ -153,7 +153,7 @@ class Newgraph implements Graph {
      *
      * @param      vert       int
      * @param      edg        int
-     * @param      tokens     The tokens
+     * @param      tok        The tokens
      *
      * @throws     Exception  { exception_description }
      */
