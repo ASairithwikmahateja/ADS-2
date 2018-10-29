@@ -45,19 +45,19 @@ interface Graph {
  */
 class newGraph implements Graph {
     /**
-     * int vertice
+     * int vertice.
      */
     private int vertices;
     /**
-     * int edge
+     * int edge.
      */
     private int edges;
     /**
-     * Bag adj
+     * Bag adj.
      */
     private Bag<Integer>[] adj;
     /**
-     * string tokens
+     * string tokens.
      */
     private String[] tokens;
     /**
@@ -98,7 +98,7 @@ class newGraph implements Graph {
         }
     }
     /**
-     * vertice method
+     * vertice method.
      *
      * @return     int
      */
@@ -106,7 +106,7 @@ class newGraph implements Graph {
         return vertices;
     }
     /**
-     * edge method
+     * edge method.
      *
      * @return     int
      */
@@ -125,7 +125,7 @@ class newGraph implements Graph {
         edges++;
     }
     /**
-     * Iterable method
+     * Iterable.
      *
      * @param      vertex  The vertex
      *
