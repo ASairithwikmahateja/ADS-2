@@ -72,12 +72,12 @@ public class Bag<Item> implements Iterable<Item> {
     *
     * @return     int
     */
-    public Iterator<Item> iterator()  {
+    public Iterator<Item> iterator() {
         return new ListIterator();  
     }
 
     /**
-     * an iterator, doesn't implement remove() since it's optional. 
+     * an iterator, doesn't implement remove() since it's optional.
      */
     private class ListIterator implements Iterator<Item> {
         /**
@@ -89,18 +89,22 @@ public class Bag<Item> implements Iterable<Item> {
          *
          * @return     True if has next, False otherwise.
          */
-        public boolean hasNext()  { return current != null;                     }
+        public boolean hasNext() {
+        	return current != null;
+        }
         /**
          * void.
          */
-        public void remove()      { throw new UnsupportedOperationException();  }
+        public void remove() {
+        	throw new UnsupportedOperationException();
+        }
         /**
          * The Item.
          *
          * @return     Item.
          */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) { throw new NoSuchElementException(); }
             Item item = current.item;
             current = current.next;
             return item;
