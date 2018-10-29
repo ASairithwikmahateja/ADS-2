@@ -1,8 +1,5 @@
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:17: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:23: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
@@ -27,7 +24,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:81:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Bag.java:82: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 24 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:6: First sentence should end with a period. [JavadocStyle]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
