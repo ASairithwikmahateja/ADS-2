@@ -4,13 +4,13 @@ import java.util.Scanner;
  */
 interface Graph {
     /**
-     * Vertices
+     * Vertices.
      *
      * @return     int
      */
     public int vertices();
     /**
-     * Edges
+     * Edges.
      *
      * @return     int
      */
@@ -23,7 +23,7 @@ interface Graph {
      */
     public void addEdge(int v, int w);
     /**
-     * Iterable
+     * Iterable.
      *
      * @param      v     int
      *

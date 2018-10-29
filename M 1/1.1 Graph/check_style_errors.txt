@@ -26,12 +26,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 24 errors.
 Starting audit...
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:6: First sentence should end with a period. [JavadocStyle]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:11:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:12: First sentence should end with a period. [JavadocStyle]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:17:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:24:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:25: First sentence should end with a period. [JavadocStyle]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:32:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:41:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:46:7: Name 'newGraph' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
@@ -50,7 +47,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:134:34: Parameter vertex should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:145:28: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:145:35: Parameter w should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:146:12: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161:29: Parameter vert should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:161:39: Parameter edg should be final. [FinalParameters]
@@ -61,6 +58,6 @@ Starting audit...
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:187: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] E:\ADS-2\M 1\1.1 Graph\Graph.java:190: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 34 errors.
+Checkstyle ends with 31 errors.
 Starting audit...
 Audit done.
