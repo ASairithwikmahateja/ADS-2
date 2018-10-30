@@ -3,6 +3,131 @@ Expected Output:
 false
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -13,6 +138,9 @@ Expected Output:
 false
 
 Your Output: 
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -24,9 +152,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 1 is not between 0 and 0
-	at BreadthFirstPaths.validateVertex(BreadthFirstPaths.java:180)
-	at BreadthFirstPaths.<init>(BreadthFirstPaths.java:22)
-	at Solution.main(Solution.java:25)
+	at CC.validateVertex(CC.java:109)
+	at CC.areConnected(CC.java:100)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -42,10 +170,11 @@ Expected Output:
 true
 
 Your Output: 
+true
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 2 is not between 0 and 1
-	at BreadthFirstPaths.validateVertex(BreadthFirstPaths.java:180)
-	at BreadthFirstPaths.<init>(BreadthFirstPaths.java:22)
-	at Solution.main(Solution.java:25)
+	at CC.validateVertex(CC.java:109)
+	at CC.areConnected(CC.java:100)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -53,10 +182,11 @@ Expected Output:
 false
 
 Your Output: 
+true
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 2 is not between 0 and 1
-	at BreadthFirstPaths.validateVertex(BreadthFirstPaths.java:180)
-	at BreadthFirstPaths.<init>(BreadthFirstPaths.java:22)
-	at Solution.main(Solution.java:25)
+	at CC.validateVertex(CC.java:109)
+	at CC.areConnected(CC.java:100)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -85,6 +215,9 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -105,6 +238,7 @@ Expected Output:
 true
 
 Your Output: 
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
@@ -116,6 +250,16 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -126,6 +270,16 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -136,6 +290,11 @@ Expected Output:
 false
 
 Your Output: 
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -157,7 +316,153 @@ Expected Output:
 false
 
 Your Output: 
-
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -165,6 +470,22 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -175,6 +496,7 @@ Expected Output:
 true
 
 Your Output: 
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -185,6 +507,380 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
@@ -196,6 +892,15 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -206,6 +911,15 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -216,6 +930,12 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -226,6 +946,11 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
 	at Newgraph.addEdge(Newgraph.java:127)
 	at Solution.main(Solution.java:23)
@@ -236,6 +961,47 @@ Expected Output:
 true
 
 Your Output: 
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
