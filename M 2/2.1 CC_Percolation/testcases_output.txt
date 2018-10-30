@@ -3,7 +3,9 @@ Expected Output:
 false
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,7 +13,9 @@ Expected Output:
 false
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -22,12 +26,12 @@ Your Output:
 false
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-
+false
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -35,19 +39,16 @@ Expected Output:
 true
 
 Your Output: 
-false
-false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:24)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-false
 false
 ----------------------------------------
 
@@ -58,7 +59,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:24)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -69,7 +70,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:24)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -77,8 +78,9 @@ Expected Output:
 true
 
 Your Output: 
-false
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -88,31 +90,38 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:24)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 10: Passed ##########
+########## Testcase 10: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Newgraph.hasEdge(Newgraph.java:150)
+	at Newgraph.addEdge(Newgraph.java:125)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 11: Passed ##########
+########## Testcase 11: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 12: Passed ##########
+########## Testcase 12: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -120,7 +129,9 @@ Expected Output:
 false
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -131,7 +142,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:24)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -142,44 +153,55 @@ Your Output:
 true
 ----------------------------------------
 
-########## Testcase 16: Passed ##########
+########## Testcase 16: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 17: Passed ##########
+########## Testcase 17: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 18: Passed ##########
+########## Testcase 18: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
+	at Newgraph.hasEdge(Newgraph.java:150)
+	at Newgraph.addEdge(Newgraph.java:125)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 19: Passed ##########
+########## Testcase 19: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 20: Passed ##########
+########## Testcase 20: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -187,24 +209,29 @@ Expected Output:
 true
 
 Your Output: 
-false
-false
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 22: Passed ##########
+########## Testcase 22: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
-########## Testcase 23: Passed ##########
+########## Testcase 23: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
+	at Newgraph.hasEdge(Newgraph.java:150)
+	at Newgraph.addEdge(Newgraph.java:125)
+	at Solution.main(Solution.java:25)
 ----------------------------------------
 
