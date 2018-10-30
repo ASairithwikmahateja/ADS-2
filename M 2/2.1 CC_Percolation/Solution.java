@@ -27,8 +27,10 @@ final class Solution {
 			boolean flag = false;
 			if (flag == true) {
 				System.out.println(true);
+				break;
 			} else {
 				System.out.println(false);
+				break;
 			}
 			// for (int i = 0; i < g.edges(); i++) {
 			//     flag = c.connected(Integer.parseInt(str[0]),
