@@ -71,13 +71,11 @@ final class Solution {
 		int n = Integer.parseInt(sc.nextLine());
 		Percolation p = new Percolation(n);
 		String[] str = new String[2];
-		Graph temp = p.open(Integer.parseInt(str[0]),
-				Integer.parseInt(str[1]));
-		CC c = new CC(temp);
 		while (sc.hasNext()) {
 			str = sc.nextLine().split(" ");
-			temp = p.open(Integer.parseInt(str[0]),
+			Graph temp = p.open(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
+			CC c = new CC(temp);
 			System.out.println(p.percolates(c));
 			break;
 			}
