@@ -24,7 +24,7 @@ final class Solution {
 			g.addEdge(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
 			CC c = new CC(g);
-			boolean flag = false;
+			boolean flag = true;
 			if (flag == true) {
 				System.out.println(true);
 				break;
