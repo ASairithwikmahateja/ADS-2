@@ -48,6 +48,7 @@ class Percolation {
      * @return     True if percolates, False otherwise.
      */
     public boolean percolates(CC c) {
+    	System.out.println(c.connected(top, bottom));
         return c.connected(top, bottom);
     }
 }
@@ -78,6 +79,6 @@ final class Solution {
 			CC c = new CC(temp);
 			System.out.println(p.percolates(c));
 			break;
-			}
 		}
+	}
 }
