@@ -112,6 +112,7 @@ class Newgraph implements Graph {
     public int edges() {
         return edges;
     }
+
     /**
      * Adds an edge.
      *
