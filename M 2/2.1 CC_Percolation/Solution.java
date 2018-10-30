@@ -18,7 +18,7 @@ final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		Newgraph g = new Newgraph(n);
-		String[] str = {};
+		String[] str = new String[100];
 		while (sc.hasNextLine()) {
 			str = sc.nextLine().split(" ");
 			g.addEdge(Integer.parseInt(str[0]),
