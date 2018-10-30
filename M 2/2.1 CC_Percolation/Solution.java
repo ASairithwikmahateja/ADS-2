@@ -27,6 +27,7 @@ final class Solution {
 			boolean flag = c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1]));
 			if (flag == true) {
 				System.out.println(true);
+				break;
 			} else {
 				System.out.println(false);
 			}
