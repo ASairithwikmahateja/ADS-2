@@ -29,11 +29,8 @@ Checkstyle ends with 23 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:42: Expected @return tag. [JavadocMethod]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:42:23: Parameter v should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:42:30: Parameter w should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:43:5: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:50:31: Parameter c should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:50:34: Expected @param tag for 'c'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 6 errors.
+Starting audit...
+[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+Audit done.
+Checkstyle ends with 1 errors.
