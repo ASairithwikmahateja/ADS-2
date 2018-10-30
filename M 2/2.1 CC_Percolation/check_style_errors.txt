@@ -35,6 +35,5 @@ Starting audit...
 [ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:43:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:50:31: Parameter c should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:50:34: Expected @param tag for 'c'. [JavadocMethod]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:80: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 6 errors.
