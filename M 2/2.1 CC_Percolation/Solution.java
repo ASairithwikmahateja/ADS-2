@@ -18,22 +18,28 @@ final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		Newgraph g = new Newgraph(n);
-		String[] str = new String[100];
-		boolean flag = false;
-		while (sc.hasNextLine()) {
+		String[] str = new String[0];
+		while (sc.hasNext()) {
 			str = sc.nextLine().split(" ");
 			g.addEdge(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
 			CC c = new CC(g);
-			for (int i = 0; i < g.edges(); i++) {
-			    flag = c.connected(Integer.parseInt(str[0]),
-			    	Integer.parseInt(str[1]));
+			boolean flag = false;
+			if (flag == true) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
 			}
+			// for (int i = 0; i < g.edges(); i++) {
+			//     flag = c.connected(Integer.parseInt(str[0]),
+			//     	Integer.parseInt(str[1]));
+			//     System.out.println(flag);
+			// }
 		}
-		if (flag == true) {
-			System.out.println(true);
-		} else {
-			System.out.println(false);
-		}
+		// if (flag == true) {
+		// 	System.out.println(true);
+		// } else {
+		// 	System.out.println(false);
+		// }
 	}
 }

@@ -3,9 +3,134 @@ Expected Output:
 false
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,9 +138,12 @@ Expected Output:
 false
 
 Your Output: 
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -26,12 +154,12 @@ Your Output:
 false
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 false
 
 Your Output: 
-false
+
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -39,16 +167,19 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 false
 
 Your Output: 
+false
 false
 ----------------------------------------
 
@@ -59,7 +190,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -70,7 +201,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -78,9 +209,12 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -90,7 +224,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -98,10 +232,11 @@ Expected Output:
 true
 
 Your Output: 
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -109,9 +244,19 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -119,9 +264,19 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -129,9 +284,14 @@ Expected Output:
 false
 
 Your Output: 
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -142,7 +302,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -150,7 +310,153 @@ Expected Output:
 false
 
 Your Output: 
-true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -158,9 +464,25 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -168,9 +490,10 @@ Expected Output:
 true
 
 Your Output: 
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -178,10 +501,384 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -189,9 +886,18 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -199,9 +905,18 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -209,9 +924,15 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -219,9 +940,14 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
 	at Newgraph.addEdge(Newgraph.java:127)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -229,9 +955,50 @@ Expected Output:
 true
 
 Your Output: 
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
 	at Newgraph.hasEdge(Newgraph.java:150)
 	at Newgraph.addEdge(Newgraph.java:125)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
