@@ -38,6 +38,7 @@ Audit done.
 Starting audit...
 [ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:29: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:28: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] E:\ADS-2\M 2\2.1 CC_Percolation\Solution.java:29: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 4 errors.

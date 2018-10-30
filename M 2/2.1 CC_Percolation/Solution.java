@@ -23,9 +23,10 @@ final class Solution {
 			str = sc.nextLine().split(" ");
 			g.addEdge(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
-			}
 			CC c = new CC(g);
 			System.out.println(
 				c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1])));
-	}
+	
+			}
+		}
 }
