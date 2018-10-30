@@ -26,15 +26,8 @@ final class Solution {
 			CC c = new CC(g);
 			boolean flag = true;
 			for (int i = 0; i < g.edges(); i++) {
-				flag = c.connected(Integer.parseInt(str[0]),
-			    	Integer.parseInt(str[1]));
-			    if (flag == true) {
-					System.out.println(true);
-					break;
-				} else {
-					System.out.println(false);
-					break;
-				}
+				System.out.println(c.connected(Integer.parseInt(str[0]),
+			    	Integer.parseInt(str[1])));
 			}
 		}
 	}
