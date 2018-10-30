@@ -24,7 +24,11 @@ final class Solution {
 			g.addEdge(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
 			CC c = new CC(g);
-			boolean flag = c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1]));
+			boolean flag = false;
+			for (int i = 0; i < g.edges(); i++) {
+			    flag = c.connected(Integer.parseInt(str[0]),
+			    	Integer.parseInt(str[1]));
+			}
 			if (flag == true) {
 				System.out.println(true);
 				break;

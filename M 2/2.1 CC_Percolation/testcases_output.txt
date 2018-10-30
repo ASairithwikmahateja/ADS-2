@@ -19,10 +19,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 1 is not between 0 and 0
-	at CC.validateVertex(CC.java:109)
-	at CC.connected(CC.java:81)
-	at Solution.main(Solution.java:27)
+false
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -33,12 +30,16 @@ Your Output:
 
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
-true
+false
+false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at Newgraph.addEdge(Newgraph.java:127)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -46,7 +47,8 @@ Expected Output:
 false
 
 Your Output: 
-true
+false
+false
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -70,11 +72,12 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
-########## Testcase 8: Passed ##########
+########## Testcase 8: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+false
 true
 ----------------------------------------
 
@@ -179,11 +182,13 @@ Your Output:
 true
 ----------------------------------------
 
-########## Testcase 21: Passed ##########
+########## Testcase 21: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+false
+false
 true
 ----------------------------------------
 
