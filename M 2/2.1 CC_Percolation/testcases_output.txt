@@ -4,6 +4,7 @@ false
 
 Your Output: 
 true
+true
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,6 +12,7 @@ Expected Output:
 false
 
 Your Output: 
+true
 true
 ----------------------------------------
 
@@ -85,27 +87,30 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
-########## Testcase 10: Passed ##########
+########## Testcase 10: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 
-########## Testcase 11: Passed ##########
+########## Testcase 11: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 
-########## Testcase 12: Passed ##########
+########## Testcase 12: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 
@@ -114,6 +119,7 @@ Expected Output:
 false
 
 Your Output: 
+true
 true
 ----------------------------------------
 
@@ -134,45 +140,51 @@ false
 
 Your Output: 
 true
+true
 ----------------------------------------
 
-########## Testcase 16: Passed ##########
+########## Testcase 16: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
 true
+true
 ----------------------------------------
 
-########## Testcase 17: Passed ##########
+########## Testcase 17: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
 true
+true
 ----------------------------------------
 
-########## Testcase 18: Passed ##########
+########## Testcase 18: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
 true
+true
 ----------------------------------------
 
-########## Testcase 19: Passed ##########
+########## Testcase 19: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
 true
+true
 ----------------------------------------
 
-########## Testcase 20: Passed ##########
+########## Testcase 20: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 
@@ -184,19 +196,21 @@ Your Output:
 true
 ----------------------------------------
 
-########## Testcase 22: Passed ##########
+########## Testcase 22: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 
-########## Testcase 23: Passed ##########
+########## Testcase 23: Failed ##########
 Expected Output: 
 true
 
 Your Output: 
+true
 true
 ----------------------------------------
 

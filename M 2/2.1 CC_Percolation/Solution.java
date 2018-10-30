@@ -25,6 +25,11 @@ final class Solution {
 				Integer.parseInt(str[1]));
 			CC c = new CC(g);
 			boolean flag = true;
+			for (int i = 0; i < g.edges(); i++) {
+				flag = c.connected(Integer.parseInt(str[0]),
+			    	Integer.parseInt(str[1]));
+			    System.out.println(flag);
+			}
 			if (flag == true) {
 				System.out.println(true);
 				break;
@@ -32,16 +37,6 @@ final class Solution {
 				System.out.println(false);
 				break;
 			}
-			// for (int i = 0; i < g.edges(); i++) {
-			//     flag = c.connected(Integer.parseInt(str[0]),
-			//     	Integer.parseInt(str[1]));
-			//     System.out.println(flag);
-			// }
 		}
-		// if (flag == true) {
-		// 	System.out.println(true);
-		// } else {
-		// 	System.out.println(false);
-		// }
 	}
 }
