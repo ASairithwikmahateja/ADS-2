@@ -28,14 +28,13 @@ final class Solution {
 			for (int i = 0; i < g.edges(); i++) {
 				flag = c.connected(Integer.parseInt(str[0]),
 			    	Integer.parseInt(str[1]));
-			    System.out.println(flag);
-			}
-			if (flag == true) {
-				System.out.println(true);
-				break;
-			} else {
-				System.out.println(false);
-				break;
+			    if (flag == true) {
+					System.out.println(true);
+					break;
+				} else {
+					System.out.println(false);
+					break;
+				}
 			}
 		}
 	}
