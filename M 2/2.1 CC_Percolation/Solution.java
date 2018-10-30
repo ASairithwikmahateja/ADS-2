@@ -78,7 +78,8 @@ final class Solution {
 			str = sc.nextLine().split(" ");
 			temp = p.open(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
+			System.out.println(p.percolates(c));
+			break;
 			}
-		System.out.println(p.percolates(c));
-	}
+		}
 }
