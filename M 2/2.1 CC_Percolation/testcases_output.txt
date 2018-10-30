@@ -25,8 +25,8 @@ true
 Your Output: 
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 1 is not between 0 and 0
 	at CC.validateVertex(CC.java:109)
-	at CC.areConnected(CC.java:100)
-	at Solution.main(Solution.java:28)
+	at CC.connected(CC.java:81)
+	at Solution.main(Solution.java:29)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -55,8 +55,8 @@ false
 Your Output: 
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 2 is not between 0 and 1
 	at CC.validateVertex(CC.java:109)
-	at CC.areConnected(CC.java:100)
-	at Solution.main(Solution.java:28)
+	at CC.connected(CC.java:81)
+	at Solution.main(Solution.java:29)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########

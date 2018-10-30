@@ -25,7 +25,7 @@ final class Solution {
 				Integer.parseInt(str[1]));
 			}
 			CC c = new CC(g);
-			System.out.println(c.areConnected(Integer.parseInt(str[0]),
-				Integer.parseInt(str[1])));
+			System.out.println(
+				c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1])));
 	}
 }
