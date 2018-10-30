@@ -26,7 +26,7 @@ final class Solution {
 			CC c = new CC(g);
 			boolean flag = true;
 			for (int i = 0; i < g.edges(); i++) {
-				System.out.println(c.connected(Integer.parseInt(str[0]),
+				System.out.println(c.areConnected(Integer.parseInt(str[0]),
 			    	Integer.parseInt(str[1])));
 			}
 		}
