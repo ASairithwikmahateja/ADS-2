@@ -24,9 +24,12 @@ final class Solution {
 			g.addEdge(Integer.parseInt(str[0]),
 				Integer.parseInt(str[1]));
 			CC c = new CC(g);
-			System.out.println(
-				c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1])));
-		return;
+			boolean flag = c.connected(Integer.parseInt(str[0]), Integer.parseInt(str[1]));
+			if (flag == true) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
 			}
 		}
+	}
 }
