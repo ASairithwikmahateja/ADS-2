@@ -105,7 +105,8 @@ public class Stack<Item> implements Iterable<Item> {
     }
 
    /**
-    * Return an iterator to the stack that iterates through the items in LIFO order. 
+    * Return an iterator to the stack that
+    * iterates through the items in LIFO order.
     *
     * @return     Item
     */
@@ -146,7 +147,7 @@ public class Stack<Item> implements Iterable<Item> {
                 throw new NoSuchElementException();
             }
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

@@ -5,11 +5,11 @@ public class Digraph {
     /**
      * number of vertices in this digraph.
      */
-    private final int V;
+    private final int vert;
     /**
      * number of edges in this digraph.
      */
-    private int E;
+    private int edge;
     /**
      * adj[v] = adjacency list for vertex v.
      */
@@ -22,12 +22,12 @@ public class Digraph {
      * Initializes an empty digraph with <em>V</em> vertices.
      * @param  V the number of vertices
      */
-    public Digraph(final int V) {
-        this.V = V;
-        this.E = 0;
-        indegree = new int[V];
-        adj = (Bag<Integer>[]) new Bag[V];
-        for (int v = 0; v < V; v++) {
+    public Digraph(final int vert) {
+        this.vert = vert;
+        this.edge = 0;
+        indegree = new int[vert];
+        adj = (Bag<Integer>[]) new Bag[vert];
+        for (int v = 0; v < vert; v++) {
             adj[v] = new Bag<Integer>();
         }
     }
@@ -35,15 +35,15 @@ public class Digraph {
      * Returns the number of vertices in this digraph.
      * @return the number of vertices in this digraph
      */
-    public int V() {
-        return V;
+    public int vert() {
+        return vert;
     }
     /**
      * Returns the number of edges in this digraph.
      * @return the number of edges in this digraph
      */
-    public int E() {
-        return E;
+    public int edge() {
+        return edge;
     }
     /**
      * Adds the directed edge v→w to this digraph.
@@ -53,7 +53,7 @@ public class Digraph {
     public void addEdge(final int v, final int w) {
         adj[v].add(w);
         indegree[w]++;
-        E++;
+        edge++;
     }
     /**
      * Returns the vertices adjacent from
