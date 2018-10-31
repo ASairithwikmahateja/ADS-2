@@ -112,14 +112,29 @@ public class Stack<Item> implements Iterable<Item> {
      * an iterator, doesn't implement remove() since it's optional
      */
     private class ListIterator implements Iterator<Item> {
+        /**
+         * current node.
+         */
         private Node current = first;
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
              return current != null;
          }
+         /**
+          * remove method.
+          */
         public void remove() {
             throw new UnsupportedOperationException();
         }
-
+        /**
+         * next method.
+         *
+         * @return     Item.
+         */
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
