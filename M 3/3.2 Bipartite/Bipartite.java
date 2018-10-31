@@ -40,7 +40,13 @@ public class Bipartite {
             }
         }
     }
-    private void dfs(final Newgraph g, final int v) { 
+    /**
+     * dfs method.
+     *
+     * @param      g     Newgraph
+     * @param      v     int
+     */
+    private void dfs(final Newgraph g, final int v) {
         marked[v] = true;
         for (int w : g.adj(v)) {
             // short circuit if odd-length cycle found
@@ -55,7 +61,10 @@ public class Bipartite {
             } else if (color[w] == color[v]) {
                 isBipartite = false;
                 cycle = new Stack<Integer>();
-                cycle.push(w);  // don't need this unless you want to include start vertex twice
+                cycle.push(w);
+                /* don't need this unless you want
+                 * to include start vertex twice
+                 */
                 for (int x = v; x != w; x = edgeTo[x]) {
                     cycle.push(x);
                 }
