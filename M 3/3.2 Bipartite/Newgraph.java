@@ -177,3 +177,4 @@ class Newgraph implements Graph {
         return s.toString();
     }
 }
+
