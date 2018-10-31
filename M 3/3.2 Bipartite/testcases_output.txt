@@ -1,0 +1,40 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Graph is bipartite
+
+Your Output: 
+Cycle exists.
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+Graph is bipartite
+
+Your Output: 
+Cycle exists.
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+Graph is bipartite
+
+Your Output: 
+Cycle exists.
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+Graph is not a bipartite
+
+Your Output: 
+Cycle doesn't exists.
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+Graph is not a bipartite
+
+Your Output: 
+Cycle doesn't exists.
+----------------------------------------
+
