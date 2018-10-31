@@ -30,7 +30,7 @@ public class Digraph {
         for (int v = 0; v < V; v++) {
             adj[v] = new Bag<Integer>();
         }
-    }        
+    }
     /**
      * Returns the number of vertices in this digraph.
      * @return the number of vertices in this digraph

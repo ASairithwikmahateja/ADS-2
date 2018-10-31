@@ -48,14 +48,10 @@ public class DirectedCycle {
             // short circuit if directed cycle found
             if (cycle != null) {
                 return;
-            }
-            // found new vertex, so recur
-            else if (!marked[w]) {
+            } else if (!marked[w]) { // found new vertex, so recur 
                 edgeTo[w] = v;
                 dfs(G, w);
-            }
-            // trace back directed cycle
-            else if (onStack[w]) {
+            } else if (onStack[w]) {  // trace back directed cycle
                 cycle = new Stack<Integer>();
                 for (int x = v; x != w; x = edgeTo[x]) {
                     cycle.push(x);

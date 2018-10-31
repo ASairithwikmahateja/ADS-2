@@ -5,18 +5,16 @@ Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:12:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:25:30: 'V' hides a field. [HiddenField]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:25:30: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:33: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:38:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:45:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:28:40: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:44:36: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:51:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:56:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:51: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -25,13 +23,10 @@ Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:42: Expected @return tag. [JavadocMethod]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:49: Expected @return tag. [JavadocMethod]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:58:22: Parameter item should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:73: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:87: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:98: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:104: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:104: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108:39: '{' at column 39 should have line break after. [LeftCurly]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:139: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:141: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:91:9: '}' at column 9 should be alone on a line. [RightCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:112:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:147: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 10 errors.

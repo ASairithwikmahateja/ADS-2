@@ -70,7 +70,9 @@ public class Stack<Item> implements Iterable<Item> {
     * @return     Item
     */
     public Item pop() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
+        if (isEmpty()) {
+            throw new RuntimeException("Stack underflow");
+        }
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
         N--;
@@ -84,8 +86,9 @@ public class Stack<Item> implements Iterable<Item> {
     * @return     Item
     */
     public Item peek() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
-        return first.item;
+        if (isEmpty()) {
+            throw new RuntimeException("Stack underflow");
+        } return first.item;
     }
 
    /**
@@ -95,8 +98,9 @@ public class Stack<Item> implements Iterable<Item> {
     */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        for (Item item : this)
+        for (Item item : this) {
             s.append(item + " ");
+        }
         return s.toString();
     }
 
@@ -136,7 +140,9 @@ public class Stack<Item> implements Iterable<Item> {
          * @return     Item.
          */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             Item item = current.item;
             current = current.next; 
             return item;
