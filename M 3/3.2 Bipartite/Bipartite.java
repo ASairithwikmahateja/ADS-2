@@ -74,7 +74,7 @@ public class Bipartite {
     }
     /**
      * Returns true if the graph is bipartite.
-     * @return {@code true} if the graph 
+     * @return {@code true} if the graph
      * is bipartite; {@code false} otherwise
      */
     public boolean isBipartite() {
@@ -83,9 +83,9 @@ public class Bipartite {
     /**
      * Returns the side of the bipartite that vertex {@code v} is on.
      * @param  v the vertex
-     * @return the side of the bipartition that vertex {@code v} is on; two vertices
-     *         are in the same side of the bipartition if and only if they have the
-     *         same color
+     * @return the side of the bipartition that vertex 
+     * {@code v} is on; two vertices are in the same side of 
+     * the bipartition if and only if they have the same color
      */
     public boolean color(final int v) {
         return color[v];
@@ -98,6 +98,6 @@ public class Bipartite {
      *         otherwise
      */
     public Iterable<Integer> oddCycle() {
-        return cycle; 
+        return cycle;
     }
 }
