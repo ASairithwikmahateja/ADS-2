@@ -35,17 +35,21 @@ public class Stack<Item> implements Iterable<Item> {
         first = null;
         sz = 0;
     }
-
-   /**
-     * Is the stack empty?
+    
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return first == null;
     }
 
    /**
-     * Return the number of items in the stack.
-     */
+    * Return the number of items in the stack.
+    *
+    * @return     int
+    */
     public int size() {
         return sz;
     }
