@@ -83,8 +83,8 @@ public class Bipartite {
     /**
      * Returns the side of the bipartite that vertex {@code v} is on.
      * @param  v the vertex
-     * @return the side of the bipartition that vertex 
-     * {@code v} is on; two vertices are in the same side of 
+     * @return the side of the bipartition that vertex
+     * {@code v} is on; two vertices are in the same side of
      * the bipartition if and only if they have the same color
      */
     public boolean color(final int v) {
