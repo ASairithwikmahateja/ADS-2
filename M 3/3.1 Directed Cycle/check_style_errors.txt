@@ -22,11 +22,9 @@ Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:12:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:42: Expected @return tag. [JavadocMethod]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:49: Expected @return tag. [JavadocMethod]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:58:22: Parameter item should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:91:9: '}' at column 9 should be alone on a line. [RightCurly]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:112:39: '{' at column 39 should have line break after. [LeftCurly]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:147: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:149: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
