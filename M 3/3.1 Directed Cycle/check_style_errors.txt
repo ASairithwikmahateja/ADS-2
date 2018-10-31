@@ -1,0 +1,78 @@
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:14:23: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:18:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:33:20: Parameter V should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:33:24: 'V' hides a field. [HiddenField]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:33:24: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:34: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:34: Line is longer than 80 characters (found 109). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:47: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:48: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:49: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:51:20: Parameter in should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:54: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:54: Line is longer than 80 characters (found 113). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:60:17: 'E' hides a field. [HiddenField]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:60:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:61: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:61: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:67:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:69: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:77:20: Parameter G should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:77:28: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:80: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:99:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:108:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:116:33: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:117: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:118: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:118:93: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:118:94: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:128:25: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:128:32: Parameter w should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:140: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:143:34: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:152: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:155:26: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:164: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:167:25: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:190: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 41 errors.
+Starting audit...
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:28:40: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:44:36: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:51:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\DirectedCycle.java:56:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+Audit done.
+Checkstyle ends with 4 errors.
+Starting audit...
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Solution.java:24: Line is longer than 80 characters (found 86). [LineLength]
+Audit done.
+Checkstyle ends with 2 errors.
+Starting audit...
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:12:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:42: Expected @return tag. [JavadocMethod]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:49: Expected @return tag. [JavadocMethod]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:58:22: Parameter item should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:73: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:87: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:98: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:104: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:104: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:108:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:115:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:116:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:119:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:123:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:124: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:126: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 17 errors.
