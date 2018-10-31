@@ -23,7 +23,7 @@ public class DirectedCycle {
      * Determines whether the digraph {@code G}
      * has a directed cycle and, if so,
      * finds such a cycle.
-     * @param G the digraph
+     * @param dg the digraph
      */
     public DirectedCycle(final Digraph dg) {
         marked  = new boolean[dg.vert()];
@@ -38,7 +38,7 @@ public class DirectedCycle {
     /**
      * check that algorithm computes either
      * the topological order or finds a directed cycle.
-     * @param      G     G of type Digraph.
+     * @param      dg     G of type Digraph.
      * @param      v     v of type int.
      */
     private void dfs(final Digraph dg, final int v) {

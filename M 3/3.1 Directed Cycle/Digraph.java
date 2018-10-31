@@ -20,10 +20,10 @@ public class Digraph {
     private int[] indegree;
     /**
      * Initializes an empty digraph with <em>V</em> vertices.
-     * @param  V the number of vertices
+     * @param  vert the number of vertices
      */
-    public Digraph(final int vert) {
-        this.vert = vert;
+    public Digraph(final int verta) {
+        this.vert = verta;
         this.edge = 0;
         indegree = new int[vert];
         adj = (Bag<Integer>[]) new Bag[vert];
