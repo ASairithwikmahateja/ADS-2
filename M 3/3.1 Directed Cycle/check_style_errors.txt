@@ -8,7 +8,5 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:38: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:95:9: '}' at column 9 should be alone on a line. [RightCurly]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.

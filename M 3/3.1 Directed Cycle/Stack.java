@@ -35,7 +35,7 @@ public class Stack<Item> implements Iterable<Item> {
         first = null;
         sz = 0;
     }
-    
+
     /**
      * Determines if empty.
      *
@@ -92,7 +92,8 @@ public class Stack<Item> implements Iterable<Item> {
     public Item peek() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
-        } return first.item;
+        }
+        return first.item;
     }
 
    /**
