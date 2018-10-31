@@ -9,7 +9,7 @@ public class Stack<Item> implements Iterable<Item> {
     /**
      * size of the stack.
      */
-    private int N;
+    private int sz;
     /**
      * top of stack.
      */
@@ -33,7 +33,7 @@ public class Stack<Item> implements Iterable<Item> {
      */
     public Stack() {
         first = null;
-        N = 0;
+        sz = 0;
     }
 
    /**
@@ -47,7 +47,7 @@ public class Stack<Item> implements Iterable<Item> {
      * Return the number of items in the stack.
      */
     public int size() {
-        return N;
+        return sz;
     }
 
    /**
@@ -60,7 +60,7 @@ public class Stack<Item> implements Iterable<Item> {
         first = new Node();
         first.item = item;
         first.next = oldfirst;
-        N++;
+        sz++;
     }
 
    /**
@@ -75,7 +75,7 @@ public class Stack<Item> implements Iterable<Item> {
         }
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
-        N--;
+        sz--;
         return item;                   // return the saved item
     }
 

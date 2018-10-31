@@ -1,19 +1,15 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:23:8: Unused @param tag for 'vert'. [JavadocMethod]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Digraph.java:25:30: Expected @param tag for 'verta'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
 Starting audit...
 Audit done.
 Starting audit...
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:12:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:42: Expected @return tag. [JavadocMethod]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:49: Expected @return tag. [JavadocMethod]
 [ERROR] E:\ADS-2\M 3\3.1 Directed Cycle\Stack.java:91:9: '}' at column 9 should be alone on a line. [RightCurly]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 4 errors.

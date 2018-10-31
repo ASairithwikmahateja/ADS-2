@@ -20,7 +20,7 @@ public class Digraph {
     private int[] indegree;
     /**
      * Initializes an empty digraph with <em>V</em> vertices.
-     * @param  vert the number of vertices
+     * @param  verta the number of vertices
      */
     public Digraph(final int verta) {
         this.vert = verta;
