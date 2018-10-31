@@ -26,9 +26,9 @@ final class Solution {
         }
         Bipartite b = new Bipartite(d);
         if (b.isBipartite()) {
-            System.out.println("Cycle exists.");
+            System.out.println("Graph is bipartite");
         } else {
-            System.out.println("Cycle doesn't exists.");
+            System.out.println("Graph is not a bipartite.");
         }
     }
 }
