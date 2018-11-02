@@ -1,4 +1,4 @@
-    import java.util.NoSuchElementException;
+import java.util.NoSuchElementException;
 /**
  * Class for digraph.
  */
@@ -197,7 +197,7 @@ public class Digraph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " vertices, " + E + " edges ");
+        s.append(V + " vertices, " + E + " edges " + NEWLINE);
         for (int v = 0; v < V; v++) {
             s.append(String.format("%d: ", v));
             for (int w : adj[v]) {
