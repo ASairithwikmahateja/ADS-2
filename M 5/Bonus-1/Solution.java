@@ -1,9 +1,21 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for solution.
+ */
 class Solution {
-	Solution() {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
     }
-	public static void main(String[] args) {
+    /**
+     * Main function.
+     * The time complexity is V + E.
+     *
+     * @param      args  The arguments
+     */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String inp = sc.nextLine();
 		String[] inputs = inp.split(" ");
