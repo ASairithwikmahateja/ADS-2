@@ -37,11 +37,10 @@ public class SAP {
     }
 
     // a common ancestor that participates in shortest ancestral path; -1 if no such path
-    public int ancestor(Iterable<Integer> v, Iterable<Integer> w){
-        int ans = -1;
+    public int ancestor(Iterable<Integer> v, Iterable<Integer> w){  
         for (int v1 : v) {
             for (int w1 : w) {
-                ancestor(v1, w1);
+                ans = ancestor(v1, w1);
             }
         } return ans;
     }

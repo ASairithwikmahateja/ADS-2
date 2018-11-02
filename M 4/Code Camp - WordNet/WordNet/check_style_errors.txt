@@ -339,24 +339,22 @@ Starting audit...
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:34:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:36: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:39: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40:5: Class 'SAP' looks like designed for extension (can be subclassed), but the method 'ancestor' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SAP' final or making the method 'ancestor' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40:25: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40:46: Parameter w should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\SAP.java:40:66: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 34 errors.
+Checkstyle ends with 35 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:24: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:29:30: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:32: Line is longer than 80 characters (found 126). [LineLength]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:32:87: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:39: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:32: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:37:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:41: Line is longer than 80 characters (found 126). [LineLength]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Solution.java:41:87: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
@@ -538,8 +536,8 @@ Starting audit...
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:14:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:14:20: Parameter synsets should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:14:36: Parameter hypernyms should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:18:14: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:35:14: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:18:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:35:14: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:36:30: Array brackets at illegal position. [ArrayTypeStyle]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:38: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] E:\ADS-2\M 4\Code Camp - WordNet\WordNet\WordNet.java:44:5: Class 'WordNet' looks like designed for extension (can be subclassed), but the method 'nouns' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WordNet' final or making the method 'nouns' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]

@@ -18,8 +18,16 @@ final class Solution {
         Scanner sc = new Scanner(System.in);
 		String sysfilnm = sc.nextLine();
 		String hypfilnm = sc.nextLine();
+		WordNet w = null;
 		try {
-		    WordNet w = new WordNet(sysfilnm, hypfilnm);	
+		    w = new WordNet(sysfilnm, hypfilnm);
+			} catch (Exception e) {
+		    System.out.println(e);
+		}
+			// if (w.hasCycle) {
+			// 	System.out.println("Cycle detected");
+			// 	return ;
+			// }
 			String type = sc.nextLine();
 			switch (type) {
 			case("Graph"):
@@ -28,15 +36,14 @@ final class Solution {
 			case "Queries":
 			while(sc.hasNextLine()) {
 		 	    String[] tok = sc.nextLine().split(" ");
+		 	    try {
 		 	    w.sap(tok[0], tok[1]);
 		 	    System.out.println("distance = " + w.sap(tok[0], tok[1]) +", ancestor =" + w.sap(tok[0], tok[1]));
+		 	} catch (Exception e) {
+		 		System.out.println("IllegalArgumentException");
 		 	}
 		 	break;
 			}
-
-        } catch (Exception e) {
-		    System.out.println(e);
-		 	
-		} 
+		}
 	}
 }
