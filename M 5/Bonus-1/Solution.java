@@ -11,7 +11,7 @@ final class Solution {
     }
     /**
      * Main function.
-     * The time complexity is V + E.
+     * The time complexity is O(V + E).
      *
      * @param      args  The arguments
      */
@@ -55,3 +55,4 @@ final class Solution {
 		}
 	}
 }
+
