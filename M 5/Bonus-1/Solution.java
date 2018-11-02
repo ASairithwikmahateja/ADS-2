@@ -1,13 +1,13 @@
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
     }
     /**
      * Main function.
@@ -28,7 +28,8 @@ class Solution {
 			while (sc.hasNext()) {
 			String connect = sc.nextLine();
 			String[] connects = connect.split(" ");
-			gph.addEdge(Integer.parseInt(connects[0]), Integer.parseInt(connects[1]));
+			gph.addEdge(Integer.parseInt(connects[0]),
+                Integer.parseInt(connects[1]));
         }
         CC connected = new CC(gph);
         int parallelcount = 0;
@@ -47,7 +48,7 @@ class Solution {
         		}
         	}
         	if (maxcount < idcount) {
-        	    maxcount = idcount;	
+        	    maxcount = idcount;
         	}
         }
         System.out.println(parallelcount + maxcount);
