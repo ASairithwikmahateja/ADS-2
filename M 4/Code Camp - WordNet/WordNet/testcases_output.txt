@@ -18,8 +18,7 @@ Expected Output:
 14: 13
 
 Your Output: 
-15 vertices, 0 edges 
-0: 
+15 vertices, 0 edges 0: 
 1: 
 2: 
 3: 
@@ -177,8 +176,7 @@ Expected Output:
 7:
 
 Your Output: 
-8 vertices, 0 edges 
-0: 
+8 vertices, 0 edges 0: 
 1: 
 2: 
 3: 
@@ -193,8 +191,7 @@ Expected Output:
 Multiple roots
 
 Your Output: 
-6 vertices, 0 edges 
-0: 
+6 vertices, 0 edges 0: 
 1: 
 2: 
 3: 
@@ -207,8 +204,7 @@ Expected Output:
 Multiple roots
 
 Your Output: 
-6 vertices, 0 edges 
-0: 
+6 vertices, 0 edges 0: 
 1: 
 2: 
 3: 
@@ -262,8 +258,7 @@ Expected Output:
 Cycle detected
 
 Your Output: 
-3 vertices, 0 edges 
-0: 
+3 vertices, 0 edges 0: 
 1: 
 2:
 ----------------------------------------
