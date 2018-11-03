@@ -21,6 +21,7 @@ class PageRank {
 	PageRank(Digraph g) {
 		for (int i = 0; i < g.V(); i++) {
 			rankar[i] = 1 / g.V();
+			System.out.println(rankar[i]);
 		}
 	 	for (int z : g.adj(v)) {
 	   		rankar[v] += getPR(z) / g.outdegree(z);
