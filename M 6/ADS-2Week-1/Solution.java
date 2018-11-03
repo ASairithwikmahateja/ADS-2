@@ -26,8 +26,8 @@ class PageRank {
 	    if (g.adj(v) != null) {
 	    	newrank[v] = inirank / g.outdegree(v);
 	    } else {
-	    	for (int w : g.adj(v)) {
-	    	    g.addEdge(v, w);
+	    	for (int i = 0; i < g.V(); i++) {
+	    	    g.addEdge(v, i);
 	    	}
 	    }
 	}
