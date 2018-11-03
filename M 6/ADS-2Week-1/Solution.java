@@ -19,23 +19,22 @@ class PageRank {
 	 * Constructs the object.
 	 */
 	PageRank(Digraph g) {
-		double inirank = 0.0;
-		if (g.V() != 0) {
-			inirank = 1 / g.V();
-		}
+		double inirank = 1 / g.V();
 	    if (g.adj(v) != null) {
-	    	if (g.outdegree(v) != 0)
-	    	newrank[v] = inirank / g.outdegree(v);
-	    } else {
-	    	for (int i = 0; i < g.V(); i++) {
-	    	    g.addEdge(v, i);
+	    	for (int z : g.adj(v)) {
+	    		newrank[v] = getPR(z) / g.outdegree(z);
 	    	}
-	    }
+	   	}
+	    // } else {
+	    // 	for (int i = 0; i < g.V(); i++) {
+	    // 	    g.addEdge(v, i);
+	    // 	}
+	    // }
 	}
 
 	public double getPR(int v) {
 		// for (int i = 0; i < 1000; i++)
-			return newrank[v];
+		return newrank[v];
 	}
 
 	public String toString() {
