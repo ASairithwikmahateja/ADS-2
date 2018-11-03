@@ -24,6 +24,7 @@ class PageRank {
 			inirank = 1 / g.V();
 		}
 	    if (g.adj(v) != null) {
+	    	if (g.outdegree(v) != 0)
 	    	newrank[v] = inirank / g.outdegree(v);
 	    } else {
 	    	for (int i = 0; i < g.V(); i++) {
