@@ -14,16 +14,16 @@ class PageRank {
 	/**
 	 * rank array.
 	 */
-	private double[] newrank;
+	private double[] rankar;
 	/**
 	 * Constructs the object.
 	 */
 	PageRank(Digraph g) {
-		double inirank = 1 / g.V();
-	    if (g.adj(v) != null) {
-	    	for (int z : g.adj(v)) {
-	    		newrank[v] = getPR(z) / g.outdegree(z);
-	    	}
+		for (int i = 0; i < g.V(); i++) {
+			rankar[i] = 1 / g.V();
+		}
+	 	for (int z : g.adj(v)) {
+	   		rankar[v] += getPR(z) / g.outdegree(z);
 	   	}
 	    // } else {
 	    // 	for (int i = 0; i < g.V(); i++) {
@@ -34,7 +34,7 @@ class PageRank {
 
 	public double getPR(int v) {
 		// for (int i = 0; i < 1000; i++)
-		return newrank[v];
+		return rankar[v];
 	}
 
 	public String toString() {
