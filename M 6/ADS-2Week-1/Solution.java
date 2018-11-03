@@ -35,7 +35,11 @@ class PageRank {
 	}
 
 	public double getPR(int v) {
-		// for (int i = 0; i < 1000; i++)
+	// 	for (int i = 0; i < 1000; i++) {
+	// 		if (rankar[v] == rankar[g.adj(v)]) {
+	// 			return;
+	// 		}
+	// 	}
 		return rankar[v];
 	}
 
