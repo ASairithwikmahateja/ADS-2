@@ -288,7 +288,6 @@ Starting audit...
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:18: Parameter g should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:26: 'g' hides a field. [HiddenField]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:26: Expected @param tag for 'g'. [JavadocMethod]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:37:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:37:29: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:37:33: 'v' hides a field. [HiddenField]
@@ -310,7 +309,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:86: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:91: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 25 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

@@ -31,7 +31,7 @@ class PageRank {
 	   		for (int i = 0; i < g.V(); i++) {
 	   	    	g.addEdge(v, i);
 	    	}
-	    }	
+	    }
 	}
 
 	public double getPR(int v) {
