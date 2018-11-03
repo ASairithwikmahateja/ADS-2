@@ -16,13 +16,13 @@ class PageRank {
 	 */
 	private double[] newrank;
 	/**
-	 * initial rank.
-	 */
-	private double inirank = 1 / g.V();
-	/**
 	 * Constructs the object.
 	 */
 	PageRank(Digraph g) {
+		double inirank = 0.0;
+		if (g.V() != 0) {
+			inirank = 1 / g.V();
+		}
 	    if (g.adj(v) != null) {
 	    	newrank[v] = inirank / g.outdegree(v);
 	    } else {

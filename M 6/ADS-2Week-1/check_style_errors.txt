@@ -285,9 +285,9 @@ Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:25:18: Parameter g should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:25:26: 'g' hides a field. [HiddenField]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:25:26: Expected @param tag for 'g'. [JavadocMethod]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:18: Parameter g should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:26: 'g' hides a field. [HiddenField]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:21:26: Expected @param tag for 'g'. [JavadocMethod]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:35:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:35:29: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Solution.java:35:33: 'v' hides a field. [HiddenField]
