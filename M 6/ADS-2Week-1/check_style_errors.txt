@@ -91,14 +91,14 @@ Starting audit...
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:164: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:166:25: Parameter v should be final. [FinalParameters]
 [ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:166:32: Parameter w should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:178: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:181:34: Parameter v should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:191: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:194:26: Parameter v should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:204: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:207:25: Parameter v should be final. [FinalParameters]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:230: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:230: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:181: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:184:34: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:194: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:197:26: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:207: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:210:25: Parameter v should be final. [FinalParameters]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:233: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 6\ADS-2Week-1\Digraph.java:233: Line is longer than 80 characters (found 95). [LineLength]
 Audit done.
 Checkstyle ends with 68 errors.
 Starting audit...
