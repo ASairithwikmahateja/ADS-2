@@ -4,14 +4,27 @@ import java.util.Scanner;
  */
 class PageRank {
 	/**
+	 * Digraph g.
+	 */
+	private Digraph g;
+	/**
+	 * initial vertex.
+	 */
+	private int v = 0;
+	/**
+	 * rank array.
+	 */
+	private double[] newrank;
+	/**
+	 * initial rank.
+	 */
+	private double inirank = 1 / g.V();
+	/**
 	 * Constructs the object.
 	 */
 	PageRank(Digraph g) {
-		double inirank = 1 / g.V();
-		int v = 0;
-		double newrank;
 	    if (g.adj(v) != null) {
-	    	newrank = inirank / g.outdegree(v);
+	    	newrank[v] = inirank / g.outdegree(v);
 	    } else {
 	    	for (int w : g.adj(v)) {
 	    	    g.addEdge(v, w);
@@ -19,17 +32,18 @@ class PageRank {
 	    }
 	}
 
-	// public double getPR(int v) {
-	// 	for (int i = 0; i < 1000; i++) {
-	// 		return ;
-	// 	}
-	// }
+	public double getPR(int v) {
+		// for (int i = 0; i < 1000; i++)
+			return newrank[v];
+	}
 
-	// public String toString() {
-	// 	String str = " ";
-	// 	str = g.v + "- " + getPR(v);
-	// 	return str;
-	// }
+	public String toString() {
+		String str = " ";
+		for (int i = 0; i < g.V(); i++) {
+			str = i + " - " + getPR(v);	
+		}
+		return str;
+	}
 }
 
 class WebSearch {
