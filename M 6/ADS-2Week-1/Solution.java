@@ -23,14 +23,15 @@ class PageRank {
 			rankar[i] = 1 / g.V();
 			System.out.println(rankar[i]);
 		}
-	 	for (int z : g.adj(v)) {
-	   		rankar[v] += getPR(z) / g.outdegree(z);
-	   	}
-	    // } else {
-	    // 	for (int i = 0; i < g.V(); i++) {
-	    // 	    g.addEdge(v, i);
-	    // 	}
-	    // }
+		if (g.adj(v) != null) {
+	 		for (int z : g.adj(v)) {
+	   			rankar[v] += getPR(z) / g.outdegree(z);
+	   		}
+	   	} else {
+	   		for (int i = 0; i < g.V(); i++) {
+	   	    	g.addEdge(v, i);
+	    	}
+	    }	
 	}
 
 	public double getPR(int v) {
