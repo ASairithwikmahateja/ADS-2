@@ -12,9 +12,9 @@ public class BreadthFirstPaths {
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      */
     public BreadthFirstPaths(Digraph G, int s) {
-        marked = new boolean[G.V()];
-        distTo = new int[G.V()];
-        edgeTo = new int[G.V()];
+        marked = new boolean[G.v()];
+        distTo = new int[G.v()];
+        edgeTo = new int[G.v()];
         validateVertex(s);
         bfs(G, s);
 
@@ -30,10 +30,10 @@ public class BreadthFirstPaths {
      *         {@code s} in {@code sources}
      */
     public BreadthFirstPaths(Digraph G, Iterable<Integer> sources) {
-        marked = new boolean[G.V()];
-        distTo = new int[G.V()];
-        edgeTo = new int[G.V()];
-        for (int v = 0; v < G.V(); v++)
+        marked = new boolean[G.v()];
+        distTo = new int[G.v()];
+        edgeTo = new int[G.v()];
+        for (int v = 0; v < G.v(); v++)
             distTo[v] = INFINITY;
         validateVertices(sources);
         bfs(G, sources);
@@ -43,7 +43,7 @@ public class BreadthFirstPaths {
     // breadth-first search from a single source
     private void bfs(Digraph G, int s) {
         Queue<Integer> q = new Queue<Integer>();
-        for (int v = 0; v < G.V(); v++)
+        for (int v = 0; v < G.v(); v++)
             distTo[v] = INFINITY;
         distTo[s] = 0;
         marked[s] = true;
