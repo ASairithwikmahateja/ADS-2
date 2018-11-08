@@ -43,7 +43,7 @@ final class Solution {
             String[] paths = sc.nextLine().split(" ");
             int source = bst.get(paths[0]);
             djk = new DijkstrasSP(ewg, source);
-            System.out.println(djk.distance(bst.get(paths[1])));
+            System.out.println((int) djk.distance(bst.get(paths[1])));
         }
     }
 }
