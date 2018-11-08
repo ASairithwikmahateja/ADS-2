@@ -1,26 +1,28 @@
+import java.lang.Math.*;
 
 public class SeamCarver {
 	// create a seam carver object based on the given picture
-	public SeamCarver(Picture picture) {
-
+	Picture picture;
+	public SeamCarver(Picture picturee) {
+		this.picture = picturee;
 	}
 	// current picture
 	public Picture picture() {
-		return null;
+		return picture;
 	}
 	// width of current picture
 	public int width() {
-		return 0;
+		return picture.width();
 	}
 
 	// height of current picture
 	public int height() {
-		return 0;
+		return picture.height();
 	}
 
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
-		return 0;
+		return 0.0;
 	}
 
 	// sequence of indices for horizontal seam
