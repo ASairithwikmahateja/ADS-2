@@ -28,8 +28,8 @@ public class SeamCarver {
 				energy = 1000.0;
 			}
 		}
-		for (int i = 1; i < y; i++) {
-			for (int j = 1; j < x; j++) {
+		for (int i = 0; i < y; i++) {
+			for (int j = 0; j < x; j++) {
 				energy = Math.sqrt(pixel(picture.get(i - 1, j), picture.get(i + 1, j)));
 			// 	energyBlue = Math.pow((picture.getRed(i - 1, j) - picture.getRed(i + 1, j)), 2) 
 			// 	+ Math.pow((picture.getRed(i, j - 1) - picture.getRed(i, j + 1)), 2);
