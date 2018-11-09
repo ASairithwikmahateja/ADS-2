@@ -22,29 +22,21 @@ public class SeamCarver {
 
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
-		double energy = 0.0;
-		for (int i = 0; i < x; i++) {
-			for (int j = 0; j < y; j++) {
-				energy = 1000.0;
-			}
+		if (x == 0 || x == picture.width() - 1) {
+			return 1000;
+		} else if (y == 0 || y == picture.height() - 1) {
+			return 1000;
 		}
-		for (int i = 0; i < y; i++) {
-			for (int j = 0; j < x; j++) {
-				energy = Math.sqrt(pixel(picture.get(i - 1, j), picture.get(i + 1, j)));
-			// 	energyBlue = Math.pow((picture.getRed(i - 1, j) - picture.getRed(i + 1, j)), 2) 
-			// 	+ Math.pow((picture.getRed(i, j - 1) - picture.getRed(i, j + 1)), 2);
-			// 	energyGreen = Math.pow((picture.getRed(i - 1, j) - picture.getRed(i + 1, j)), 2)
-			// 	+ Math.pow((picture.getRed(i, j -1 ) - picture.getRed(i, j + 1)), 2);
-			}
-		}
-		return energy;
-	}
-
-	public int pixel(java.awt.Color x, java.awt.Color y) {
-		int eneR = x.getRed() - y.getRed();
-		int eneB = x.getBlue() - y.getBlue();
-		int eneG = x.getGreen() - y.getGreen();
-		return (eneR * eneR) + (eneB * eneB) + (eneG * eneG);
+	int rx = picture.get(x, y - 1).getRed() - picture.get(x, y + 1).getRed();
+	int gx = picture.get(x, y - 1).getGreen() - picture.get(x, y + 1).getGreen();
+	int bx = picture.get(x, y - 1).getBlue() - picture.get(x, y + 1).getBlue();
+	double xs = (rx * rx) + (gx * gx) + (bx * bx);
+	int ry = picture.get(x - 1, y).getRed() - picture.get(x + 1, y).getRed();
+	int gy = picture.get(x - 1, y).getGreen() - picture.get(x + 1, y).getGreen();
+	int by = picture.get(x - 1, y).getBlue() - picture.get(x + 1, y).getBlue();
+	double ys = (ry * ry) + (gy * gy) + (by * by);
+	double result = Math.sqrt(xs + ys);
+	return result;
 	}
 
 	// sequence of indices for horizontal seam
