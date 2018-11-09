@@ -55,6 +55,13 @@ public class SeamCarver {
 		return computePath(w, h);
 	}
 
+	// sequence of indices for vertical seam
+	public int[] findVerticalSeam() {
+		int w = width(), h = height();
+		computeEnergy(w, h, 0);
+		return computePath(w, h);
+	}
+
 	private void computeEnergy(int w, int h, int flag) {
 		energy = new double[w * h];
 		for (int r = 0; r < h; r++) {
@@ -109,18 +116,45 @@ public class SeamCarver {
 			return energy(x, y);
 	}
 
-	// sequence of indices for vertical seam
-	public int[] findVerticalSeam() {
-		return new int[0];
-	}
-
 	// remove horizontal seam from current picture
 	public void removeHorizontalSeam(int[] seam) {
-
+		Picture p = new Picture(width(), height() - 1);
+		int prerow = seam[0];
+		for (int c = 0; c < width(); c++) {
+			if (Math.abs(seam[c] - prerow) > 1)
+				throw new IllegalArgumentException("Non-valid seam");
+			if (seam[c] < 0 || seam[c] >= height())
+				throw new IndexOutOfBoundsException();
+			prerow = seam[c];
+			for (int r = 0; r < height() - 1; r++)
+				if (r < seam[c])
+					p.set(c, r, picture.get(c, r));
+				else
+					p.set(c, r, picture.get(c, r + 1));
+		}
+		picture = p;
+		energy = null;
+		pathTo = null;
 	}
 
 	// remove vertical seam from current picture
 	public void removeVerticalSeam(int[] seam) {
-
+		Picture p = new Picture(width() - 1, height());
+		int precol = seam[0];
+		for (int r = 0; r < height(); r++) {
+			if (Math.abs(seam[r] - precol) > 1)
+				throw new IllegalArgumentException("Non-valid seam");
+			if (seam[r] < 0 || seam[r] >= width())
+				throw new IndexOutOfBoundsException();
+			precol = seam[r];
+			for (int c = 0; c < width() - 1; c++)
+				if (c < seam[r])
+					p.set(c, r, picture.get(c, r));
+				else
+					p.set(c, r, picture.get(c + 1, r));
+		}
+		picture = p;
+		energy = null;
+		pathTo = null;
 	}
 }
