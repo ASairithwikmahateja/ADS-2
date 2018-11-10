@@ -65,7 +65,7 @@ public final class Solution {
 					d2.distTo(Integer.parseInt(pathe[2])));
 			String str = "";
 			for (Edge w : d1.pathTo(Integer.parseInt(pathe[1]))) {
-				str +=  ewg.adj(w.either()) + " ";
+				str +=  w.either() + " ";
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
 				str += v.either() + " ";
