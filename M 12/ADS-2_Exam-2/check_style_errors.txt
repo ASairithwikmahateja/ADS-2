@@ -26,7 +26,7 @@ Starting audit...
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:62:70: '&&' should be on a new line. [OperatorWrap]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:64: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:64:90: '+' should be on a new line. [OperatorWrap]
-[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:72: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 14 errors.
 Starting audit...
