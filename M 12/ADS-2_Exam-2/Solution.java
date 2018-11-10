@@ -64,11 +64,11 @@ public final class Solution {
 				System.out.println(d1.distTo(Integer.parseInt(pathe[1])) +
 					d2.distTo(Integer.parseInt(pathe[2])));
 			String str = "";
-			str = d1.pathTo(Integer.parseInt(pathe[1])) + " " +
-			d2.pathTo(Integer.parseInt(pathe[2]));
+			str = d1.pathTo(Integer.parseInt(pathe[1])).toString() + " " +
+			d2.pathTo(Integer.parseInt(pathe[2])).toString();
 			System.out.println(str);
 			} else {
-				System.out.println("No path Found.");
+				System.out.println("No Path Found.");
 			}
 			break;
 
