@@ -46,9 +46,8 @@ public final class Solution {
 			if (d.hasPathTo(Integer.parseInt(path[1]))) {
 				System.out.println(d.distTo(Integer.parseInt(path[1])));
 			} else {
-				break;
+				System.out.println("No Path Found.");
 			}
-			System.out.println("No Path Found.");
 			break;
 
 		case "ViaPaths":
