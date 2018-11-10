@@ -1,9 +1,7 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Edge.java:40:25: Variable 'weight' must be private and have accessor methods. [VisibilityModifier]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\EdgeWeightedGraph.java:183:65: '+' should be on a new line. [OperatorWrap]
 Audit done.
