@@ -42,12 +42,15 @@ public final class Solution {
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
 			String[] path = sc.nextLine().split(" ");
-			double distance = 0.00000;
-			if (ewg.adj(Integer.parseInt(path[0])) ==
-				ewg.adj(Integer.parseInt(path[1]))) {
-				distance += 0.00000;
-			} else {
-				System.out.println("No Path Found");
+			Edge e1;
+			e1 = new Edge(Integer.parseInt(path[0]), Integer.parseInt(path[1]),
+				0.00000);
+			for (Edge ed : ewg.edges()) {
+				if (e1.equals(ed)) {
+					System.out.println("distance");
+				} else {
+					System.out.println("No Path Found.");
+				}
 			}
 			break;
 
