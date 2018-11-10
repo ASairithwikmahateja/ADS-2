@@ -78,6 +78,7 @@ public final class Solution {
 					str += v.either() + " ";
 				}
 			}
+			System.out.println(str);
 			} else {
 				System.out.println("No Path Found.");
 			}
