@@ -79,7 +79,7 @@ public final class Solution {
 				// } else {
 				// 	str += v.either() + " ";
 			    // }
-				str += v.other(v.either()) +" ";
+				str += v.other(v.either()) + " "; 
 			}
 			System.out.println(str);
 			} else {
