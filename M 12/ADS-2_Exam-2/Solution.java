@@ -49,9 +49,10 @@ public final class Solution {
 				if (e1.equals(ed)) {
 					System.out.println("distance");
 				} else {
-					System.out.println("No Path Found.");
+					break;
 				}
 			}
+			System.out.println("No Path Found.");
 			break;
 
 		case "ViaPaths":
