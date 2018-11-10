@@ -65,18 +65,20 @@ public final class Solution {
 					d2.distTo(Integer.parseInt(pathe[2])));
 			String str = "";
 			for (Edge w : d1.pathTo(Integer.parseInt(pathe[1]))) {
-				if (w.either() != Integer.parseInt(pathe[0])) {
-					str +=  pathe[0] + " ";
-				} else {
-					str += w.either() + " ";
-				} str += w.other(Integer.parseInt(str.trim()));
+				// if (w.either() != Integer.parseInt(pathe[0])) {
+				// 	str +=  pathe[0] + " ";
+				// } else {
+				// 	str += w.either() + " ";
+				// }
+				str += w.either() + " " + w.other(w.either()) + " "; 
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
-				if (v.either() != 0) {
-					str += pathe[1] + " ";	
-				} else {
-					str += v.either() + " ";
-			    }
+				// if (v.either() != 0) {
+				// 	str += pathe[1] + " ";	
+				// } else {
+				// 	str += v.either() + " ";
+			    // }
+				str += v.either() + " " + v.other(v.either()) + " ";
 			}
 			System.out.println(str);
 			} else {
