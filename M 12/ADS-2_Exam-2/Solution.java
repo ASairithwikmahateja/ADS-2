@@ -41,6 +41,14 @@ public final class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] path = sc.nextLine().split(" ");
+			double distance = 0.00000;
+			if (ewg.adj(Integer.parseInt(path[0])) ==
+				ewg.adj(Integer.parseInt(path[1]))) {
+				distance += 0.00000;
+			} else {
+				System.out.println("No Path Found");
+			}
 			break;
 
 		case "ViaPaths":
