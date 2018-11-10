@@ -11,7 +11,7 @@ class DijkstrasSP {
     /**
      *edge to is to store the edge connected.
      */
-    private Edge[] edgeTo;
+    public Edge[] edgeTo;
     /**
      *indexed minpq to store the key value.
      *pair.

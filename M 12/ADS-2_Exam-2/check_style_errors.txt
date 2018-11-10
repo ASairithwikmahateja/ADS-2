@@ -1,7 +1,9 @@
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\DijkstrasSP.java:14:19: Variable 'edgeTo' must be private and have accessor methods. [VisibilityModifier]
 Audit done.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -24,7 +26,9 @@ Starting audit...
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:62:70: '&&' should be on a new line. [OperatorWrap]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:64: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:64:90: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:67: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:70: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 Audit done.
