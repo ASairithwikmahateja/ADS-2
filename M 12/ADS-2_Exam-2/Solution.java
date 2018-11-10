@@ -68,11 +68,7 @@ public final class Solution {
 				str +=  w.other(w.either()) + " ";
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
-				if (v.either() == 0) {
-					str += pathe[1] + " ";	
-				} else {
-					str += v.either() + " ";
-				}
+				str += v.other(v.either()) + " ";
 			}
 			System.out.println(str);
 			} else {
