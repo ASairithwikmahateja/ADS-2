@@ -28,8 +28,8 @@ public final class Solution {
 			e = new Edge(Integer.parseInt(tok[0]), Integer.parseInt(tok[1]),
 				Integer.parseInt(tok[2]));
 			ewg.addEdge(e);
-			System.out.println(ewg.toString());
 		}
+		System.out.println(ewg.toString());
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":

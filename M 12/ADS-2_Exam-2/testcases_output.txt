@@ -9,52 +9,12 @@ Expected Output:
 5:
 
 Your Output: 
-6 1
-0: Edge@2ef9b8bc  
-1: Edge@2ef9b8bc  
-2: 
-3: 
-4: 
-5: 
-
-6 2
-0: Edge@2ef9b8bc  
-1: Edge@5d624da6  Edge@2ef9b8bc  
-2: 
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 3
-0: Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 4
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
-6 5
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
 6 6
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@4cb2c100  Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@4cb2c100  Edge@5d624da6  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
+2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
+3: Edge@4cb2c100  Edge@2ef9b8bc  
+4: Edge@3f2a3a5  Edge@60addb54  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
@@ -76,137 +36,17 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-10 1
-0: Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: 
-8: 
-9: 
-
-10 2
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 3
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 4
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 5
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 6
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@4cb2c100  
-3: 
-4: Edge@4cb2c100  Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 7
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  
-3: 
-4: Edge@4cb2c100  Edge@2ef9b8bc  
-5: Edge@6fb554cc  
-6: Edge@1e67b872  
-7: Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 8
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@614c5515  Edge@6fb554cc  Edge@4cb2c100  
-3: 
-4: Edge@4cb2c100  Edge@2ef9b8bc  
-5: Edge@6fb554cc  
-6: Edge@1e67b872  
-7: Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@614c5515  
-
-10 9
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@614c5515  Edge@6fb554cc  Edge@4cb2c100  
-3: Edge@77b52d12  
-4: Edge@4cb2c100  Edge@2ef9b8bc  
-5: Edge@6fb554cc  
-6: Edge@1e67b872  
-7: Edge@77b52d12  Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@614c5515  
-
-10 10
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@614c5515  Edge@6fb554cc  Edge@4cb2c100  
-3: Edge@77b52d12  
-4: Edge@2d554825  Edge@4cb2c100  Edge@2ef9b8bc  
-5: Edge@2d554825  Edge@6fb554cc  
-6: Edge@1e67b872  
-7: Edge@77b52d12  Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@614c5515  
-
 10 11
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@3f2a3a5  Edge@60addb54  Edge@1e67b872  
-2: Edge@614c5515  Edge@6fb554cc  Edge@4cb2c100  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  Edge@3f2a3a5  
+2: Edge@4cb2c100  Edge@6fb554cc  Edge@614c5515  
 3: Edge@77b52d12  
-4: Edge@2d554825  Edge@4cb2c100  Edge@2ef9b8bc  
+4: Edge@2d554825  Edge@614c5515  Edge@5d624da6  
 5: Edge@2d554825  Edge@6fb554cc  
-6: Edge@1e67b872  
-7: Edge@68837a77  Edge@77b52d12  Edge@3f2a3a5  Edge@60addb54  Edge@5d624da6  
+6: Edge@3f2a3a5  
+7: Edge@68837a77  Edge@77b52d12  Edge@1e67b872  Edge@60addb54  Edge@2ef9b8bc  
 8: 
-9: Edge@68837a77  Edge@614c5515  
+9: Edge@68837a77  Edge@4cb2c100  
 
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:34)
@@ -217,52 +57,12 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 1
-0: Edge@2ef9b8bc  
-1: Edge@2ef9b8bc  
-2: 
-3: 
-4: 
-5: 
-
-6 2
-0: Edge@2ef9b8bc  
-1: Edge@5d624da6  Edge@2ef9b8bc  
-2: 
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 3
-0: Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 4
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
-6 5
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
 6 6
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@4cb2c100  Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@4cb2c100  Edge@5d624da6  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
+2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
+3: Edge@4cb2c100  Edge@2ef9b8bc  
+4: Edge@3f2a3a5  Edge@60addb54  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
@@ -274,125 +74,17 @@ Expected Output:
 370.0
 
 Your Output: 
-10 1
-0: Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: 
-8: 
-9: 
-
-10 2
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 3
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 4
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 5
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 6
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@4cb2c100  Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 7
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
-10 8
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: Edge@614c5515  
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@614c5515  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
-10 9
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: Edge@614c5515  
-4: Edge@77b52d12  Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@614c5515  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
 10 10
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  
+2: Edge@3f2a3a5  Edge@4cb2c100  Edge@6fb554cc  
 3: Edge@614c5515  
-4: Edge@77b52d12  Edge@3f2a3a5  Edge@2ef9b8bc  
+4: Edge@77b52d12  Edge@6fb554cc  Edge@5d624da6  
 5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@2d554825  Edge@614c5515  Edge@60addb54  Edge@5d624da6  
+6: Edge@60addb54  
+7: Edge@2d554825  Edge@614c5515  Edge@1e67b872  Edge@2ef9b8bc  
 8: 
-9: Edge@2d554825  Edge@6fb554cc  
+9: Edge@2d554825  Edge@3f2a3a5  
 
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:34)
@@ -403,52 +95,12 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 1
-0: Edge@2ef9b8bc  
-1: Edge@2ef9b8bc  
-2: 
-3: 
-4: 
-5: 
-
-6 2
-0: Edge@2ef9b8bc  
-1: Edge@5d624da6  Edge@2ef9b8bc  
-2: 
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 3
-0: Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: 
-4: Edge@5d624da6  
-5: 
-
-6 4
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@1e67b872  
-3: Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
-6 5
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@5d624da6  
-5: 
-
 6 6
-0: Edge@60addb54  Edge@2ef9b8bc  
-1: Edge@1e67b872  Edge@5d624da6  Edge@2ef9b8bc  
-2: Edge@4cb2c100  Edge@3f2a3a5  Edge@1e67b872  
-3: Edge@3f2a3a5  Edge@60addb54  
-4: Edge@4cb2c100  Edge@5d624da6  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
+2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
+3: Edge@4cb2c100  Edge@2ef9b8bc  
+4: Edge@3f2a3a5  Edge@60addb54  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
@@ -461,125 +113,17 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-10 1
-0: Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: 
-8: 
-9: 
-
-10 2
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: 
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: 
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 3
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@5d624da6  
-8: 
-9: 
-
-10 4
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: 
-3: 
-4: Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 5
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: 
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 6
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@4cb2c100  Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: 
-
-10 7
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: 
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
-10 8
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: Edge@614c5515  
-4: Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@614c5515  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
-10 9
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
-3: Edge@614c5515  
-4: Edge@77b52d12  Edge@3f2a3a5  Edge@2ef9b8bc  
-5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@614c5515  Edge@60addb54  Edge@5d624da6  
-8: 
-9: Edge@6fb554cc  
-
 10 10
-0: Edge@5d624da6  Edge@2ef9b8bc  
-1: Edge@60addb54  Edge@1e67b872  
-2: Edge@6fb554cc  Edge@4cb2c100  Edge@3f2a3a5  
+0: Edge@2ef9b8bc  Edge@5d624da6  
+1: Edge@1e67b872  Edge@60addb54  
+2: Edge@3f2a3a5  Edge@4cb2c100  Edge@6fb554cc  
 3: Edge@614c5515  
-4: Edge@77b52d12  Edge@3f2a3a5  Edge@2ef9b8bc  
+4: Edge@77b52d12  Edge@6fb554cc  Edge@5d624da6  
 5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@1e67b872  
-7: Edge@2d554825  Edge@614c5515  Edge@60addb54  Edge@5d624da6  
+6: Edge@60addb54  
+7: Edge@2d554825  Edge@614c5515  Edge@1e67b872  Edge@2ef9b8bc  
 8: 
-9: Edge@2d554825  Edge@6fb554cc  
+9: Edge@2d554825  Edge@3f2a3a5  
 
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:34)
