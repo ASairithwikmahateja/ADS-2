@@ -76,7 +76,7 @@ public final class Solution {
 					str += pathe[1] + " ";	
 				} else {
 					str += v.either() + " ";
-				} str += Integer.parseInt(pathe[2]);
+				} str = str + " " + Integer.parseInt(pathe[2]);
 			}
 			System.out.println(str);
 			} else {
