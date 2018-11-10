@@ -65,10 +65,10 @@ public final class Solution {
 					d2.distTo(Integer.parseInt(pathe[2])));
 			String str = "";
 			for (Edge w : d1.pathTo(Integer.parseInt(pathe[1]))) {
-				str +=  w.other(w.either()) + w.either() + " ";
+				str +=  w.other(w.either()) + " ";
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
-				str += v.other(v.either()) + v.either() + " ";
+				str += v.other(v.either()) + " ";
 			}
 			System.out.println(str);
 			} else {
