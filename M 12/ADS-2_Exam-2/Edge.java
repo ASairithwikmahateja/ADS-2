@@ -37,7 +37,7 @@ public class Edge implements Comparable<Edge> {
     /**
      * weight.
      */
-    private final double weight;
+    private double weight = 0.00000;
 
     /**
      * Initializes an edge between vertices {@code v} and {@code w} of
