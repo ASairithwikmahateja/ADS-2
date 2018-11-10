@@ -70,7 +70,7 @@ public final class Solution {
 				// } else {
 				// 	str += w.either() + " ";
 				// }
-				str += w.either() + " " + w.other(w.either()) + " ";
+				str += w.other(w.either()) + " " + w.either() + " ";
 				break;
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
@@ -80,7 +80,6 @@ public final class Solution {
 				// 	str += v.either() + " ";
 			    // }
 				str += v.either() + " " + v.other(v.either()) + " ";
-				break;
 			}
 			System.out.println(str);
 			} else {
