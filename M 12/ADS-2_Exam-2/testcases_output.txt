@@ -9,16 +9,16 @@ Expected Output:
 5:
 
 Your Output: 
-6 6
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
-2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
-3: Edge@4cb2c100  Edge@2ef9b8bc  
-4: Edge@3f2a3a5  Edge@60addb54  
+6 vertices6 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
+2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
+3: Edge@3567135c  Edge@614c5515  
+4: Edge@6be46e8f  Edge@68837a77  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -36,20 +36,20 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-10 11
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  Edge@3f2a3a5  
-2: Edge@4cb2c100  Edge@6fb554cc  Edge@614c5515  
-3: Edge@77b52d12  
-4: Edge@2d554825  Edge@614c5515  Edge@5d624da6  
-5: Edge@2d554825  Edge@6fb554cc  
-6: Edge@3f2a3a5  
-7: Edge@68837a77  Edge@77b52d12  Edge@1e67b872  Edge@60addb54  Edge@2ef9b8bc  
+10 vertices11 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  Edge@6be46e8f  
+2: Edge@3567135c  Edge@327471b5  Edge@4157f54e  
+3: Edge@90f6bfd  
+4: Edge@47f6473  Edge@4157f54e  Edge@77b52d12  
+5: Edge@47f6473  Edge@327471b5  
+6: Edge@6be46e8f  
+7: Edge@15975490  Edge@90f6bfd  Edge@2d554825  Edge@68837a77  Edge@614c5515  
 8: 
-9: Edge@68837a77  Edge@4cb2c100  
+9: Edge@15975490  Edge@3567135c  
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -57,16 +57,16 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 6
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
-2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
-3: Edge@4cb2c100  Edge@2ef9b8bc  
-4: Edge@3f2a3a5  Edge@60addb54  
+6 vertices6 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
+2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
+3: Edge@3567135c  Edge@614c5515  
+4: Edge@6be46e8f  Edge@68837a77  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -74,20 +74,20 @@ Expected Output:
 370.0
 
 Your Output: 
-10 10
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  
-2: Edge@3f2a3a5  Edge@4cb2c100  Edge@6fb554cc  
-3: Edge@614c5515  
-4: Edge@77b52d12  Edge@6fb554cc  Edge@5d624da6  
-5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@60addb54  
-7: Edge@2d554825  Edge@614c5515  Edge@1e67b872  Edge@2ef9b8bc  
+10 vertices10 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  
+2: Edge@6be46e8f  Edge@3567135c  Edge@327471b5  
+3: Edge@4157f54e  
+4: Edge@90f6bfd  Edge@327471b5  Edge@77b52d12  
+5: Edge@90f6bfd  Edge@3567135c  
+6: Edge@68837a77  
+7: Edge@47f6473  Edge@4157f54e  Edge@2d554825  Edge@614c5515  
 8: 
-9: Edge@2d554825  Edge@3f2a3a5  
+9: Edge@47f6473  Edge@6be46e8f  
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -95,16 +95,16 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 6
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  Edge@5d624da6  
-2: Edge@3f2a3a5  Edge@4cb2c100  Edge@1e67b872  
-3: Edge@4cb2c100  Edge@2ef9b8bc  
-4: Edge@3f2a3a5  Edge@60addb54  
+6 vertices6 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
+2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
+3: Edge@3567135c  Edge@614c5515  
+4: Edge@6be46e8f  Edge@68837a77  
 5: 
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -113,19 +113,19 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-10 10
-0: Edge@2ef9b8bc  Edge@5d624da6  
-1: Edge@1e67b872  Edge@60addb54  
-2: Edge@3f2a3a5  Edge@4cb2c100  Edge@6fb554cc  
-3: Edge@614c5515  
-4: Edge@77b52d12  Edge@6fb554cc  Edge@5d624da6  
-5: Edge@77b52d12  Edge@4cb2c100  
-6: Edge@60addb54  
-7: Edge@2d554825  Edge@614c5515  Edge@1e67b872  Edge@2ef9b8bc  
+10 vertices10 edges
+0: Edge@614c5515  Edge@77b52d12  
+1: Edge@2d554825  Edge@68837a77  
+2: Edge@6be46e8f  Edge@3567135c  Edge@327471b5  
+3: Edge@4157f54e  
+4: Edge@90f6bfd  Edge@327471b5  Edge@77b52d12  
+5: Edge@90f6bfd  Edge@3567135c  
+6: Edge@68837a77  
+7: Edge@47f6473  Edge@4157f54e  Edge@2d554825  Edge@614c5515  
 8: 
-9: Edge@2d554825  Edge@3f2a3a5  
+9: Edge@47f6473  Edge@6be46e8f  
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 

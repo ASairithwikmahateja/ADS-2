@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * Class.
+ * Class Solution.
  */
 public final class Solution {
 	/**
@@ -30,6 +30,7 @@ public final class Solution {
 			ewg.addEdge(e);
 		}
 		System.out.println(ewg.toString());
+
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
