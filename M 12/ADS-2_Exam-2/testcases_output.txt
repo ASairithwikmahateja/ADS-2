@@ -9,7 +9,7 @@ Expected Output:
 5:
 
 Your Output: 
-6 vertices6 edges
+6 vertices 6 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
 2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
@@ -36,7 +36,7 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-10 vertices11 edges
+10 vertices 11 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  Edge@6be46e8f  
 2: Edge@3567135c  Edge@327471b5  Edge@4157f54e  
@@ -57,7 +57,7 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 vertices6 edges
+6 vertices 6 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
 2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
@@ -74,7 +74,7 @@ Expected Output:
 370.0
 
 Your Output: 
-10 vertices10 edges
+10 vertices 10 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  
 2: Edge@6be46e8f  Edge@3567135c  Edge@327471b5  
@@ -95,7 +95,7 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-6 vertices6 edges
+6 vertices 6 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  Edge@77b52d12  
 2: Edge@6be46e8f  Edge@3567135c  Edge@2d554825  
@@ -113,7 +113,7 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-10 vertices10 edges
+10 vertices 10 edges
 0: Edge@614c5515  Edge@77b52d12  
 1: Edge@2d554825  Edge@68837a77  
 2: Edge@6be46e8f  Edge@3567135c  Edge@327471b5  
