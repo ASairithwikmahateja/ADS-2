@@ -63,15 +63,18 @@ public final class Solution {
 				d2.hasPathTo(Integer.parseInt(pathe[2]))) {
 				System.out.println(d1.distTo(Integer.parseInt(pathe[1])) +
 					d2.distTo(Integer.parseInt(pathe[2])));
-			// String str = "";
-			// for (Edge w : d1.pathTo(Integer.parseInt(pathe[1]))) {
-			// 	str +=  w.either() + " ";
-			// }
-			// for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
-			// 	str += v.either() + " ";
-			// }
-			// System.out.println(str);
-			System.out.println(d1.edgeTo);
+			String str = "";
+			for (Edge w : d1.pathTo(Integer.parseInt(pathe[1]))) {
+				if (w.either() == Integer.parseInt(pathe[0])) {
+					str +=  pathe[0] + " ";
+				} else {
+					str += w.either() + " ";
+				}
+			}
+			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
+				str += v.either() + " ";
+			}
+			System.out.println(str);
 			} else {
 				System.out.println("No Path Found.");
 			}
