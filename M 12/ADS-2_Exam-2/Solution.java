@@ -29,12 +29,11 @@ public final class Solution {
 				Integer.parseInt(tok[2]));
 			ewg.addEdge(e);
 		}
-		System.out.println(ewg.toString());
-
-		String caseToGo = null;
+		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
 			//Print the Graph Object.
+			System.out.println(ewg.toString());
 			break;
 
 		case "DirectedPaths":
