@@ -56,6 +56,16 @@ public final class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] pathe = sc.nextLine().split(" ");
+			DijkstrasSP d1 = new DijkstrasSP(ewg, Integer.parseInt(pathe[0]));
+			DijkstrasSP d2 = new DijkstrasSP(ewg, Integer.parseInt(pathe[1]));
+			if (d1.hasPathTo(Integer.parseInt(pathe[1])) &&
+				d2.hasPathTo(Integer.parseInt(pathe[2]))) {
+				System.out.println(d1.distTo(Integer.parseInt(pathe[1])) +
+					d2.distTo(Integer.parseInt(pathe[2])));
+			} else {
+				System.out.println("No path Found.");
+			}
 			break;
 
 		default:
