@@ -73,7 +73,7 @@ public final class Solution {
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
 				if (v.either() != 0) {
-					str += pathe[1] + " ";	
+					str += v.other(v.either()) + " ";	
 				} else {
 					str += v.either() + " ";
 				}
