@@ -76,7 +76,7 @@ public final class Solution {
 					str += v.other(v.either()) + " ";	
 				} else {
 					str += v.either() + " ";
-				} str += pathe[2];
+				}
 			}
 			System.out.println(str);
 			} else {
