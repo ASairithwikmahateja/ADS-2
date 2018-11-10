@@ -72,9 +72,13 @@ public final class Solution {
 				}
 			}
 			for (Edge v : d2.pathTo(Integer.parseInt(pathe[2]))) {
-				str += v.either() + " ";
-			}
+				if (v.either() != 0) {
+					str += pathe[1] + " ";	
+				} else {
+					str += v.either() + " ";
+				}
 			System.out.println(str);
+			}
 			} else {
 				System.out.println("No Path Found.");
 			}
