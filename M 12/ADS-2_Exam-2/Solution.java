@@ -42,15 +42,11 @@ public final class Solution {
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
 			String[] path = sc.nextLine().split(" ");
-			Edge e1;
-			e1 = new Edge(Integer.parseInt(path[0]), Integer.parseInt(path[1]),
-				0.00000);
-			for (Edge ed : ewg.edges()) {
-				if (e1.equals(ed)) {
-					System.out.println("distance");
-				} else {
-					break;
-				}
+			DijkstrasSP d = new DijkstrasSP(ewg, Integer.parseInt(path[0]));
+			if (d.hasPathTo(Integer.parseInt(path[1]))) {
+				System.out.println(d.distTo(Integer.parseInt(path[1])));
+			} else {
+				break;
 			}
 			System.out.println("No Path Found.");
 			break;

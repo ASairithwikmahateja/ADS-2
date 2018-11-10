@@ -3,16 +3,23 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
+Audit done.
+Starting audit...
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\EdgeWeightedGraph.java:183:65: '+' should be on a new line. [OperatorWrap]
 Audit done.
 Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
 Starting audit...
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:40: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:46: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:59: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:60: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:45: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:47: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:55: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] E:\ADS-2\M 12\ADS-2_Exam-2\Solution.java:56: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 8 errors.
+Starting audit...
+Audit done.
