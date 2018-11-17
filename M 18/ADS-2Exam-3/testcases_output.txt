@@ -10,7 +10,6 @@ Expected Output:
 149
 
 Your Output: 
-/Files/t9.csv 0
 null
 null
 null
@@ -58,7 +57,6 @@ messagesome
 going
 
 Your Output: 
-/Files/t9.csv 0
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:28)
 ----------------------------------------
@@ -128,7 +126,6 @@ fine
 seeking
 
 Your Output: 
-/Files/t9.csv 0
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:40)
 ----------------------------------------
@@ -141,7 +138,6 @@ right
 words
 
 Your Output: 
-/Files/t9.csv 0
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:59)
 ----------------------------------------
@@ -195,7 +191,6 @@ paper
 keep
 
 Your Output: 
-/Files/t9.csv 0
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:72)
 ----------------------------------------

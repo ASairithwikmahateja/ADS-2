@@ -90,15 +90,20 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
-		// String[] str = file.toLowerCase().split(" ");
-		// for (int i = 0; i < str.length; i++) {
-		// 	st.put(str[i], i);
-		// 	System.out.println(str[i] + " " + i);
-		// }
-		st.put(file, 0);
-		System.out.println(file + " " + 0);
+		String[] str = toReadFile(file);
+
+		for (int i = 0; i < str.length; i++) {
+			String[] temp = str[i].toLowerCase().split(" ");
+			for (int j = 0; j < temp.length; j++) {
+				if (st.contains(temp[j])) {
+					st.put(temp[j], st.get(temp[j]) + 1);
+				} else {
+					st.put(temp[j], st.get(temp[j]));
+				}
+			}
+		}
 		return st;
-	}
+		}
 
 }
 
