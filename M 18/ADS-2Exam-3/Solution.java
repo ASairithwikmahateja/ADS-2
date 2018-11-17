@@ -91,7 +91,7 @@ public class Solution {
 		// your code goes here
 		for (int i = 0; i < file.length(); i++) {
 			st.put(file, i);
-			System.out.println(st);
+			System.out.println(file + " " + i);
 		}
 		return st;
 	}
