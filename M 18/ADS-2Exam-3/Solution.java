@@ -102,14 +102,6 @@ public class Solution {
 				}
 			}
 		}
-		
-		// for (String s : str) {
-		// 	if (st.contains(s.toLowerCase())) {
-		// 		st.put(s.toLowerCase(), st.get(s.toLowerCase()) + 1);
-		// 	} else {
-		// 		st.put(s.toLowerCase(), 1);
-		// 	}
-		// }
 		return st;
 		}
 
@@ -119,7 +111,10 @@ class T9 {
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
-
+		TST t = new TST();
+		for (String s : st.keys()) {
+			t.put(s, st.get(s));
+		}
 	}
 
 	// get all the prefixes that match with given prefix.
