@@ -132,8 +132,10 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-
-		return null;
+		Iterable<String> to = null;
+		for (String s : words)
+			to = t.keysThatMatch(s);
+		return to;
 	}
 
 	// final output
