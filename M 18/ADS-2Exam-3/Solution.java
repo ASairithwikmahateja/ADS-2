@@ -96,20 +96,9 @@ public class Solution {
 		// 	String[] temp = str[i].toLowerCase().split(" ");
 		// 	for (int j = 0; j < temp.length; j++) {
 		// 		if (!st.contains(temp[j])) {
-		// 			st.put(temp[j], st.get(temp[j]));
+		// 			st.put(temp[j], 1);
 		// 		} else {
 		// 			st.put(temp[j], st.get(temp[j]) + 1);
-		// 		}
-		// 	}
-		// }
-		
-		// for (String s : str) {
-		// 	String[] temp = s.split(" ");
-		// 	for (int i = 0; i < temp.length; i++) {
-		// 		if (st.contains(temp[i])) {
-		// 			st.put(temp[i].toLowerCase(), st.get(temp[i].toLowerCase()) + 1);
-		// 		} else {
-		// 			st.put(temp[i].toLowerCase(), 1);
 		// 		}
 		// 	}
 		// }
@@ -130,6 +119,7 @@ class T9 {
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+
 	}
 
 	// get all the prefixes that match with given prefix.
