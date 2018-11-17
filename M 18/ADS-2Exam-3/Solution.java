@@ -95,9 +95,8 @@ public class Solution {
 		for (int i = 0; i < str.length; i++) {
 			String[] temp = str[i].toLowerCase().split(" ");
 			for (int j = 0; j < temp.length; j++) {
-				System.out.println(temp[j]);
 				if (st.contains(temp[j])) {
-					st.put(temp[j], st.get(temp[j]) + 1);
+					// st.put(temp[j], st.get(temp[j]) + 1);
 					System.out.println(st.get(temp[j]) + 1);
 				} else {
 					st.put(temp[j], st.get(temp[j]));
