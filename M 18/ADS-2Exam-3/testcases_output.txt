@@ -10,6 +10,19 @@ Expected Output:
 149
 
 Your Output: 
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
+BinarySearchST@2d209079
 null
 null
 null
@@ -57,6 +70,19 @@ messagesome
 going
 
 Your Output: 
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:27)
 ----------------------------------------
@@ -126,6 +152,19 @@ fine
 seeking
 
 Your Output: 
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:39)
 ----------------------------------------
@@ -138,6 +177,19 @@ right
 words
 
 Your Output: 
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:58)
 ----------------------------------------
@@ -191,6 +243,19 @@ paper
 keep
 
 Your Output: 
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
+BinarySearchST@6bdf28bb
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:71)
 ----------------------------------------
