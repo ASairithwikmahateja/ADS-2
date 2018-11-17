@@ -92,24 +92,24 @@ public class Solution {
 		// your code goes here
 		String[] str = toReadFile(file);
 
-		// for (int i = 0; i < str.length; i++) {
-		// 	String[] temp = str[i].toLowerCase().split(" ");
-		// 	for (int j = 0; j < temp.length; j++) {
-		// 		if (!st.contains(temp[j])) {
-		// 			st.put(temp[j], 1);
-		// 		} else {
-		// 			st.put(temp[j], st.get(temp[j]) + 1);
-		// 		}
-		// 	}
-		// }
-		
-		for (String s : str) {
-			if (st.contains(s.toLowerCase())) {
-				st.put(s.toLowerCase(), st.get(s.toLowerCase()) + 1);
-			} else {
-				st.put(s.toLowerCase(), 1);
+		for (int i = 0; i < str.length; i++) {
+			String[] temp = str[i].toLowerCase().split(" ");
+			for (int j = 0; j < temp.length; j++) {
+				if (!st.contains(temp[j].toLowerCase())) {
+					st.put(temp[j].toLowerCase(), 1);
+				} else {
+					st.put(temp[j].toLowerCase(), st.get(temp[j].toLowerCase()) + 1);
+				}
 			}
 		}
+		
+		// for (String s : str) {
+		// 	if (st.contains(s.toLowerCase())) {
+		// 		st.put(s.toLowerCase(), st.get(s.toLowerCase()) + 1);
+		// 	} else {
+		// 		st.put(s.toLowerCase(), 1);
+		// 	}
+		// }
 		return st;
 		}
 
