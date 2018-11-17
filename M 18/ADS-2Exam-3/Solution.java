@@ -126,7 +126,7 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		return null;
+		return t.keysWithPrefix(t9Signature);
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
