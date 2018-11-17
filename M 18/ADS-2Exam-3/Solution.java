@@ -93,6 +93,7 @@ public class Solution {
 		String[] str = file.toLowerCase().split(" ");
 		for (int i = 0; i < str.length; i++) {
 			st.put(str[i], i);
+			System.out.println(str[i] + " " + i);
 		}
 		return st;
 	}
