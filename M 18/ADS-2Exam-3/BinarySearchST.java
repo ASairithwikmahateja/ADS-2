@@ -201,9 +201,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
 		keys[i] = key;
 		vals[i] = val;
 		n++;
-		System.out.println(keys[i]);
-		System.out.println(vals[i]);
-
+		
 		assert check();
 	}
 
