@@ -90,11 +90,13 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
-		String[] str = file.toLowerCase().split(" ");
-		for (int i = 0; i < str.length; i++) {
-			st.put(str[i], i);
-			System.out.println(str[i] + " " + i);
-		}
+		// String[] str = file.toLowerCase().split(" ");
+		// for (int i = 0; i < str.length; i++) {
+		// 	st.put(str[i], i);
+		// 	System.out.println(str[i] + " " + i);
+		// }
+		st.put(file, 0);
+		System.out.println(file + " " + 0);
 		return st;
 	}
 
