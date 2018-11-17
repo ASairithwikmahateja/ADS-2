@@ -103,14 +103,22 @@ public class Solution {
 		// 	}
 		// }
 		
+		// for (String s : str) {
+		// 	String[] temp = s.split(" ");
+		// 	for (int i = 0; i < temp.length; i++) {
+		// 		if (st.contains(temp[i])) {
+		// 			st.put(temp[i].toLowerCase(), st.get(temp[i].toLowerCase()) + 1);
+		// 		} else {
+		// 			st.put(temp[i].toLowerCase(), 1);
+		// 		}
+		// 	}
+		// }
+		
 		for (String s : str) {
-			String[] temp = s.split(" ");
-			for (int i = 0; i < temp.length; i++) {
-				if (st.contains(temp[i])) {
-					st.put(temp[i].toLowerCase(), st.get(temp[i].toLowerCase()) + 1);
-				} else {
-					st.put(temp[i].toLowerCase(), 1);
-				}
+			if (st.contains(s.toLowerCase())) {
+				st.put(s.toLowerCase(), st.get(s.toLowerCase()) + 1);
+			} else {
+				st.put(s.toLowerCase(), 1);
 			}
 		}
 		return st;
