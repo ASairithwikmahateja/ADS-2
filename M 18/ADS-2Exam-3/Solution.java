@@ -15,7 +15,6 @@ public class Solution {
 			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();
-				System.out.println(key);
 				System.out.println(hash.get(key));
 			}
 			break;
@@ -90,6 +89,9 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
+		for (int i = 0; i < file.length(); i++) {
+			st.put(file, i);
+		}
 		return st;
 	}
 

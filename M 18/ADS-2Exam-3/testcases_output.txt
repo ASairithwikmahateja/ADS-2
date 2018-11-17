@@ -10,21 +10,13 @@ Expected Output:
 149
 
 Your Output: 
-wont
 null
-working
 null
-what
 null
-vegetables
 null
-too
 null
-over
 null
-message
 null
-going
 null
 ----------------------------------------
 
@@ -66,7 +58,7 @@ going
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:28)
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -135,7 +127,7 @@ seeking
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:40)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -147,7 +139,7 @@ words
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:59)
+	at Solution.main(Solution.java:58)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -200,6 +192,6 @@ keep
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:72)
+	at Solution.main(Solution.java:71)
 ----------------------------------------
 
