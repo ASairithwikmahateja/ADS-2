@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.*;
 /**
  * Class for solution.
  */
@@ -89,9 +90,9 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
-		for (int i = 0; i < file.length(); i++) {
-			st.put(file, i);
-			System.out.println(file + " " + i);
+		String[] str = file.toLowerCase().split(" ");
+		for (int i = 0; i < str.length; i++) {
+			st.put(str[i], i);
 		}
 		return st;
 	}
