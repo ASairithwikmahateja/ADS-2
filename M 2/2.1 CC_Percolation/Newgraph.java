@@ -115,7 +115,7 @@ class Newgraph implements Graph {
 
     /**
      * Adds an edge.
-     *
+     * The time complexity is O(1).
      * @param      vertexOne  The vertex one
      * @param      vertexTwo  The vertex two
      */
@@ -141,6 +141,7 @@ class Newgraph implements Graph {
     }
     /**
      * Determines if it has edge.
+     * The time complexity is O(v).
      *
      * @param      v     integer
      * @param      w     integer
@@ -156,6 +157,7 @@ class Newgraph implements Graph {
     }
     /**
      * display function of adjacency list.
+     * The time complexity is O(N^2).
      *
      * @param      vert       int
      * @param      edg        int
@@ -184,6 +186,7 @@ class Newgraph implements Graph {
     }
     /**
      * display function of adjacency matrix list.
+     * The time complexity is O(N^2).
      *
      * @param      vert        int
      * @param      edg         int

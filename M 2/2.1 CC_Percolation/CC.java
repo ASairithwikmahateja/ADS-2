@@ -38,6 +38,7 @@ public class CC {
 
     /**
      * depth-first search for a Graph
+     * The time complexity is O(N^2).
      *
      * @param      G     Graph
      * @param      v     int
@@ -61,6 +62,7 @@ public class CC {
      *
      * @return the component id of the connected component containing vertex.
      * @throws IllegalArgumentException unless 0 <= v < V.
+     * The time complexity is O(1).
      */
     public int id(int v) {
         validateVertex(v);
@@ -100,6 +102,7 @@ public class CC {
      *         connected component; false otherwise
      * @throws IllegalArgumentException unless 0 <= v < V.
      * @throws IllegalArgumentException unless 0 <= w < V.
+     * The time complexity is O(1).
      */
     public boolean connected(int v, int w) {
         validateVertex(v);
