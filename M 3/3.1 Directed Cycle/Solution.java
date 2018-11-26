@@ -11,6 +11,7 @@ final class Solution {
     }
     /**
      * Main function.
+     * The time complexity is O(N).
      *
      * @param      args  The arguments
      */

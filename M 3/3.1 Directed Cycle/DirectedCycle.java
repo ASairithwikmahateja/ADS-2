@@ -38,6 +38,7 @@ public class DirectedCycle {
     /**
      * check that algorithm computes either
      * the topological order or finds a directed cycle.
+     * The time complexity is O(E), where E is no of Edges.
      * @param      dg     G of type Digraph.
      * @param      v     v of type int.
      */
@@ -66,6 +67,7 @@ public class DirectedCycle {
      * Does the digraph have a directed cycle?
      * @return {@code true} if the digraph has
      * a directed cycle, {@code false} otherwise
+     * The time complexity is O(1).
      */
     public boolean hasCycle() {
         return cycle != null;
@@ -76,6 +78,7 @@ public class DirectedCycle {
      * @return a directed cycle (as an iterable)
      * if the digraph has a directed cycle,
      *    and {@code null} otherwise
+     *    The time complexity is O(1).
      */
     public Iterable<Integer> cycle() {
         return cycle;
