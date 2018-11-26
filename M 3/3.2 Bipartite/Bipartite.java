@@ -42,6 +42,7 @@ public class Bipartite {
     }
     /**
      * dfs method.
+     * The time complexity is O(E), where E is no of edges.
      *
      * @param      g     Newgraph
      * @param      v     int
@@ -76,6 +77,7 @@ public class Bipartite {
      * Returns true if the graph is bipartite.
      * @return {@code true} if the graph
      * is bipartite; {@code false} otherwise
+     * 
      */
     public boolean isBipartite() {
         return isBipartite;

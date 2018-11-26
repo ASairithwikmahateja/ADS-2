@@ -118,6 +118,7 @@ class Newgraph implements Graph {
     }
     /**
      * Adds an edge.
+     * The time complexity is O(1).
      *
      * @param      vertexOne  The vertex one
      * @param      vertexTwo  The vertex two
@@ -144,6 +145,7 @@ class Newgraph implements Graph {
     }
     /**
      * Determines if it has edge.
+     * The time complexity is O(v).
      *
      * @param      v     integer
      * @param      w     integer
@@ -163,6 +165,7 @@ class Newgraph implements Graph {
      * @return the number of vertices <em>V</em>,
      * followed by the number of edges <em>E</em>,
      * followed by the <em>V</em> adjacency lists.
+     * The time complexity is O(N^2).
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
