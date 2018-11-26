@@ -12,6 +12,7 @@ public class BoggleSolver {
      array of strings as the dictionary.
      (You can assume each word in the dictionary contains
      only the uppercase letters A through Z.)
+     * The time complexity is O(N).
      * @param      dictionary  The dictionary
      */
     public BoggleSolver(final String[] dictionary) {
@@ -24,6 +25,7 @@ public class BoggleSolver {
      * Gets all valid words.
      * Returns the set of all valid words in the given
      * Boggle board, as an Iterable.
+     * The time complexity is O(N^2).
      * @param      board  The board
      * @return     All valid words.
      */
@@ -39,6 +41,7 @@ public class BoggleSolver {
     }
     /**
      * helper method for getAllValidWords method.
+     * The time complexity is O(V + E).
      * @param      board   The board
      * @param      row     The row
      * @param      col     The col
@@ -90,6 +93,7 @@ public class BoggleSolver {
      * Returns the score of the given word if it is in the dictionary,
      zero otherwise.
      (You can assume the word contains only the uppercase letters A through Z.)
+     * The time complexity is O(1).
      * @param      word  The word
      * @return     score of type integer.
      */
